@@ -47,15 +47,7 @@ class App extends Component {
                 <Projects/>
                 <Contact/>
                 
-                {/* <Switch> }
-                    <Route exact path="/" render = {props => <Home {...props}
-                                                                changeColor = {this.changeColor}
-                                                                style = {this.state}
-                                                              />}/>
-                    <Route path="/about" component = {About}/>                                         
-                    <Route path="/contact" component = {Contact}/>
-                    <Route path = "/Projects" component = {Projects}/>
-                </Switch> */}
+                
             </div>
         )
     }
