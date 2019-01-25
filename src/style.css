@@ -20,12 +20,12 @@ body{
 
 
 .link{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'verdana';
     text-decoration: none;
-    margin: 28px;
-    margin-top: 30px;
+    margin: 27px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
 }
 
@@ -38,7 +38,7 @@ body{
 
 
 .navbarP2{
-        color:rgb(89, 210, 237);
+        color:rgb(17, 32, 36);
         font-size: 27px;
         font-family: 'verdana';
         font-weight: 600;
@@ -67,7 +67,7 @@ body{
  height: 350px;
  width: auto;
  background-color:  rgba(32, 50, 83, 0.24);
- border-top: 80px solid rgba(45, 52, 75, 0.822); 
+ border-top: 60px solid rgba(45, 52, 75, 0.822); 
  
    
  
@@ -211,8 +211,8 @@ li{
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
-    height: 53px;
-    width: 53px;
+    height: 45px;
+    width: 45px;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -226,14 +226,14 @@ li{
 
 .linkedin:hover{
 
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
 }
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 55px;
-    width: 55px;
+    height: 47px;
+    width: 47px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -245,8 +245,8 @@ li{
 
 .git:hover{
 
-    height: 68px;
-    width: 68px;
+    height: 63px;
+    width: 63px;
 }
 
 .git2{
@@ -539,12 +539,13 @@ h5{
     
     .navbarP2{
         margin:auto;
-        margin-top: 70px;
+        margin-top: 90px;
         position: inherit;
         font-weight: bolder;
-        font-size: 26px;
+        font-size: 27px;
         text-align: center;
         width: auto;
+       
        
     }
     
