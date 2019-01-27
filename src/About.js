@@ -12,9 +12,13 @@ const About = () => {
                         <a className = 'linkedin1' href = "https://www.linkedin.com/in/alexander-nemechek-10240a167">
                             <div className = "linkedin"></div>
                         </a>
+                        
                         <a className = 'git1' href = "https://github.com/alexnmc ">
                             <div className = "git"></div>
                         </a>
+                       
+                       
+                        
                 </div>
 
                     <p className = "aboutP">

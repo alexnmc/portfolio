@@ -505,7 +505,7 @@ h5{
     margin: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     body{
         background-size: 26pc 13cm;
@@ -527,7 +527,7 @@ h5{
     }
     
     .welcomeP{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     
@@ -542,17 +542,24 @@ h5{
         margin-top: 90px;
         position: inherit;
         font-weight: bolder;
-        font-size: 27px;
+        font-size: 20px;
         text-align: center;
         width: auto;
+       
        
        
     }
     
    .home1{
     border-top: 50px solid rgba(45, 52, 75, 0.897); 
-    height: 300px;
+    background-color: rgb(184, 192, 199);
+    height: 270px;
    }
+
+    .home5,
+    .home4{
+        height: 270px;
+    }
     
     .link{
         font-size: 20px;
@@ -568,7 +575,7 @@ h5{
 
     .developer{
        
-        font-size: 17px;
+        font-size: 15px;
         font-family: 'verdana';
         font-weight: 600;
         width: 200px;
