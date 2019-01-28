@@ -527,22 +527,23 @@ h5{
     }
     
     .welcomeP{
-        font-size: 22px;
+        font-size: 21px;
     }
 
     
     .h5{
-        font-size: 14px;
+        font-size: 13px;
+        
     }
     
     
     
     .navbarP2{
         margin:auto;
-        margin-top: 90px;
+        margin-top: 140px;
         position: inherit;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 22px;
         text-align: center;
         width: auto;
        
@@ -552,11 +553,19 @@ h5{
     
    .home1{
     border-top: 50px solid rgba(45, 52, 75, 0.897); 
-    background-color: rgb(184, 192, 199);
+    background-color: rgb(213, 216, 223);
     height: 270px;
    }
 
-    .home5,
+   
+   .home2{
+       height: auto;
+   }
+
+
+    
+   
+   .home5,
     .home4{
         height: 270px;
     }
@@ -584,9 +593,9 @@ h5{
         margin-bottom: 200px;
         margin-top:0px;
         text-align: center;
-       
+    }
     
-}
+    
     
     .aboutP{
         margin: 12px;
@@ -765,4 +774,16 @@ h5{
        font-size: 15px;
        
    }
+
+   .react1 {
+    background-image: url( './Photos/react.png')  ; 
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin:auto;
+    margin-top: 5px;
+    animation: reverseLogo 5s linear infinite
+}
+
 }
