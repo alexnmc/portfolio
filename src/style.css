@@ -44,7 +44,7 @@ body{
         font-weight: 600;
         margin-top: 50px;
         width: auto;
-        margin-left: 1070px;
+        margin-left: 1043px;
         margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
@@ -125,7 +125,7 @@ body{
 .home3 {
    
     background-color: rgba(16, 16, 31, 0.947);
-    height: 820px;
+    height: 850px;
     padding: 50px;
     border-bottom: 2px solid rgb(0, 204, 255,20);
     border-top: 2px solid rgb(0, 204, 255, 20);
@@ -181,8 +181,8 @@ body{
     justify-content: center;
     align-items: flex-end;
     background-color: rgba(1, 2, 11, 0);
-    height: 85px;
-    width: 300px;
+    height: auto;
+    width: 400px;
     margin:auto;
     border-radius: 23px;
     position: relative;
@@ -216,7 +216,7 @@ li{
     background-position: center;
     background-size: cover;
     display: inline-block;
-    margin-right: 40px;
+    margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
     border: 10px solid black;
     border-radius: 10px;
@@ -237,7 +237,7 @@ li{
     background-position: center ;
     background-size: cover;
     display:inline-block;
-    margin-left: 40px;
+    margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
     border: 5px solid black;
     border-radius: 300px;
@@ -248,6 +248,30 @@ li{
     height: 63px;
     width: 63px;
 }
+
+
+
+
+.resume{
+    background-image: url( './Photos/cv.png')  ; 
+    height: 47px;
+    width: 47px;
+    background-position: center ;
+    background-size: cover;
+    display:inline-block;
+    margin: 30px;
+    transition: 0.5s ease-in-out 0.2s;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+
+.resume:hover{
+
+    height: 60px;
+    width: 60px;
+}
+
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
@@ -441,6 +465,7 @@ h5{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -453,7 +478,7 @@ h5{
     font-family: 'verdana';
     color: white;
     display: block;
-    height: 820px;
+    height: 800px;
 }
 
 .exchange{
@@ -540,23 +565,25 @@ h5{
     
     .navbarP2{
         margin:auto;
-        margin-top: 140px;
+        margin-top: 170px;
         position: inherit;
         font-weight: bolder;
         font-size: 22px;
         text-align: center;
         width: auto;
        
-       
-       
     }
     
-   .home1{
+   
+   
+    .home1{
     border-top: 50px solid rgba(45, 52, 75, 0.897); 
     background-color: rgb(213, 216, 223);
-    height: 270px;
+    height: 280px;
    }
 
+   
+   
    
    .home2{
        height: auto;
@@ -565,7 +592,7 @@ h5{
 
     
    
-   .home5,
+    .home5,
     .home4{
         height: 270px;
     }
@@ -696,11 +723,11 @@ h5{
 
 
 
-        .provide{
-            width:auto;
-            height:auto;
-            display:flex;
-        }
+    .provide{
+        width:auto;
+        height:auto;
+        display:flex;
+    }
 
 
 
@@ -724,6 +751,7 @@ h5{
     
       }
 
+      .resume,
       .linkedin,
       .git{
           margin: 10px;
@@ -731,18 +759,20 @@ h5{
           margin-left: 30px;
       }
 
+
+    .resume,
     .linkedin{
         height: 44px;
         width:44px;
     }
    
-   .git{
+    .git{
        height: 44px;
         width:44px;
-   
-   }
+    }
 
-   .projects1{
+   
+    .projects1{
        height: 1700px;
        display: flex;
        flex-direction: column;
@@ -751,6 +781,7 @@ h5{
        
    }
 
+   
    .shellDiv,
    .excDiv{
        display: flex;
@@ -762,6 +793,7 @@ h5{
        margin:auto;
    }
 
+   
    .exchange,
    .shell{
        height: 160px;
@@ -769,6 +801,7 @@ h5{
        margin:auto;
    }
 
+   
    .exchangeText,
    .shellText{
        font-size: 15px;

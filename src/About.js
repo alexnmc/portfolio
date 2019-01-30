@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './Photos/resume.pdf'
 
 const About = () => {
     return (
@@ -9,6 +10,7 @@ const About = () => {
                 </div>
                 
                 <div className = 'inline'>
+                        
                         <a className = 'linkedin1' href = "https://www.linkedin.com/in/alexander-nemechek-10240a167">
                             <div className = "linkedin"></div>
                         </a>
@@ -16,13 +18,17 @@ const About = () => {
                         <a className = 'git1' href = "https://github.com/alexnmc ">
                             <div className = "git"></div>
                         </a>
-                       
+                        
+                        <a className = 'resume1' href = {resume}>
+                            <div className = "resume"></div>
+                        </a>
+
                        
                         
                 </div>
 
                     <p className = "aboutP">
-                        My name is Alexander Nemechek and I am a full stack software developer.
+                        My name is Alexander Uj-Nemechek and I am a full stack software developer.
                         I enjoy being challenged and engaging in projects that require me to work outside my comfort and knowledge set, 
                         continuing to learn new languages and development techniques. 
                     </p>
