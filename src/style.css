@@ -254,14 +254,14 @@ li{
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 47px;
-    width: 47px;
+    height: 45px;
+    width: 46px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 5px solid black;
+    border: 6px solid black;
     border-radius: 10px;
 
 }
