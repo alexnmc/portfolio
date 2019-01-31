@@ -1,6 +1,8 @@
 import React from 'react'
 import resume from './Photos/resume.pdf'
 
+
+
 const About = () => {
     return (
         <div className="about" id = '2'>
@@ -19,7 +21,7 @@ const About = () => {
                             <div className = "git"></div>
                         </a>
                         
-                        <a className = 'resume1' href = {resume}>
+                        <a className = 'resume1' href = {resume} >
                             <div className = "resume"></div>
                         </a>
 
@@ -28,7 +30,7 @@ const About = () => {
                 </div>
 
                     <p className = "aboutP">
-                        My name is Alexander Uj-Nemechek and I am a full stack software developer.
+                        My name is Alexander Nemechek and I am a full stack software developer.
                         I enjoy being challenged and engaging in projects that require me to work outside my comfort and knowledge set, 
                         continuing to learn new languages and development techniques. 
                     </p>
