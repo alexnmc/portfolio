@@ -759,19 +759,14 @@ h5{
           margin-left: 30px;
       }
 
-
+    .git,
     .resume,
     .linkedin{
         height: 44px;
         width:44px;
     }
    
-    .git{
-       height: 44px;
-        width:44px;
-    }
-
-   
+    
     .projects1{
        height: 1700px;
        display: flex;

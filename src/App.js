@@ -12,23 +12,23 @@ class App extends Component {
         super()
    
         this.state = {
-         navbarP2 : { color: 'white'}
+         navbarP2 : { color: 'black'}
          }
     }
     
 
    
     changeColor = () => {
-        if(this.state.navbarP2.color ===  'white') {
+        if(this.state.navbarP2.color ===  'black') {
             this.setState(
                 { 
-                navbarP2: { color: 'black'}
+                navbarP2: { color: 'white'}
                 }
             )
         } else {
             this.setState(
                 { 
-                navbarP2: { color: 'white'}
+                navbarP2: { color: 'black'}
                 }
             )
         }
