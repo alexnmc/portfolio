@@ -63,7 +63,7 @@ const Projects = () => {
                 <a href = "https://newschannel.netlify.com/" >
                 <img className ="shell" alt = '' src = {news}/>
                 </a>
-                <p className = 'exchangeText'>React website displaying articles from over 10 API sources.</p>
+                <p className = 'exchangeText'>A compact, single page REACT application displaying articles through Axios requests made to over 30 news APIs updated live.</p>
                 <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
                     <div className = "git2"></div>
                 </a>
