@@ -49,7 +49,7 @@ const Projects = () => {
             </div>
 
             
-            <div className = 'excDiv2'>
+            <div className = 'excDiv'>
                 <a href = "https://www.valentinapan.com" >
                 <img className ="shell" alt = '' src = {realestate}/>
                 </a>
@@ -59,7 +59,7 @@ const Projects = () => {
                 </a>
             </div>
             
-            <div className = 'excDiv2'>
+            <div className = 'excDiv'>
                 <a href = "https://newschannel.netlify.com/" >
                 <img className ="shell" alt = '' src = {news}/>
                 </a>
