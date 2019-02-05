@@ -3,6 +3,7 @@ import exchange from  './Photos/exchange.png'
 import shell from  './Photos/shellgame.png'
 import group from './Photos/group.png'
 import realestate from './Photos/realestate.png'
+import news from './Photos/news.png'
 
 
 
@@ -58,6 +59,15 @@ const Projects = () => {
                 </a>
             </div>
             
+            <div className = 'excDiv2'>
+                <a href = "https://newschannel.netlify.com/" >
+                <img className ="shell" alt = '' src = {news}/>
+                </a>
+                <p className = 'exchangeText'>React website displaying articles from over 10 API sources.</p>
+                <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
+                    <div className = "git2"></div>
+                </a>
+            </div>
 
         </div>
        
