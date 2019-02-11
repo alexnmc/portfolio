@@ -129,6 +129,7 @@ body{
     padding: 50px;
     border-bottom: 2px solid rgb(0, 204, 255,20);
     border-top: 2px solid rgb(0, 204, 255, 20);
+    position: relative;
 
 }
 
@@ -161,6 +162,7 @@ body{
     padding-top: 30px;
     margin-left: 90px;
     margin-right: 90px;
+    position:relative;
     
     
 }
@@ -181,11 +183,11 @@ body{
     justify-content: center;
     align-items: flex-end;
     background-color: rgba(1, 2, 11, 0);
-    height: auto;
-    width: 400px;
+    height: 120px;
+    width: 100%;
     margin:auto;
     border-radius: 23px;
-    position: relative;
+    
     
 }
     
@@ -220,6 +222,7 @@ li{
     transition: 0.5s ease-in-out 0.2s;
     border: 10px solid black;
     border-radius: 10px;
+    position: relative
    
     
 }
