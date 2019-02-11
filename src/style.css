@@ -550,7 +550,7 @@ h5{
     .inline{
         margin:0px;
         width:auto;
-        height: 100px;
+        height: auto;
     }
     
     .navbar{
