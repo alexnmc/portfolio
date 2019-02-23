@@ -236,8 +236,6 @@ li{
 }
 
 
-
-
 .resume{
     background-image: url( './Photos/cv.png')  ; 
     height: 44px;
@@ -452,9 +450,6 @@ h5{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
-    
-
 }
 
 
@@ -468,14 +463,11 @@ h5{
     display: block;
     height: auto;
     padding:40px;
-   
-    
 }
 
 .exchange{
     width: 250px;
     height: 150px
-
 }
 
 .shell{
@@ -491,7 +483,6 @@ h5{
     border-radius: 5px;
     margin: 5%;
     display: block;
-    
 }
 
 
@@ -513,7 +504,6 @@ h5{
     border-radius: 5px;
     margin: 5%;
     display:block;
-    
 }
 
 .exchangeText,
@@ -582,8 +572,6 @@ h5{
    }
 
 
-    
-   
     .home5,
     .home4{
         height: 270px;
@@ -634,9 +622,8 @@ h5{
       
        padding:10px;
        height: 980PX;
-       
-      
     }
+    
     
     .work{
         margin-top: 60px;
