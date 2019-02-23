@@ -218,8 +218,8 @@ li{
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 46px;
-    width: 46px;
+    height: 45px;
+    width: 45px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -238,8 +238,8 @@ li{
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 44px;
-    width: 45px;
+    height: 43px;
+    width: 44px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
