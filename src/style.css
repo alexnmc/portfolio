@@ -68,9 +68,6 @@ body{
  width: auto;
  background-color:  rgba(32, 50, 83, 0.24);
  border-top: 60px solid rgba(45, 52, 75, 0.822); 
- 
-   
- 
 }
 
 
@@ -129,8 +126,6 @@ body{
     padding: 50px;
     border-bottom: 2px solid rgb(0, 204, 255,20);
     border-top: 2px solid rgb(0, 204, 255, 20);
-    
-
 }
 
 
@@ -140,11 +135,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-   
- }   
+}   
 
- .home5{
+
+.home5{
      height:300px;
      width: 100%;
      background-color: rgba(67, 87, 105, 0.301);
@@ -163,8 +157,6 @@ body{
     margin-left: 90px;
     margin-right: 90px;
     position:relative;
-    
-    
 }
 
 
@@ -173,8 +165,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 250px;
-  
- 
 }
 
 .inline{
@@ -187,17 +177,12 @@ body{
     width: 100%;
     margin:auto;
     border-radius: 23px;
-    
-    
 }
     
     
-
-
 ul{
     margin: 100px;
     margin-top: 30px;
-    
 }
 
 
@@ -207,14 +192,12 @@ li{
     font-family: 'verdana';
     font-weight: 520;
     margin: auto;
-
-    
 }
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
-    height: 45px;
-    width: 45px;
+    height: 44px;
+    width: 44px;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -235,8 +218,8 @@ li{
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 47px;
-    width: 47px;
+    height: 46px;
+    width: 46px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -257,8 +240,8 @@ li{
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 45px;
-    width: 46px;
+    height: 44px;
+    width: 45px;
     background-position: center ;
     background-size: cover;
     display:inline-block;
