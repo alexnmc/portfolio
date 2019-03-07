@@ -514,8 +514,9 @@ h5{
 @media only screen and (max-width: 1024px) {
 
     body{
-        background-size: 26pc 13cm;
-        background-repeat: repeat;
+       /* background-size: 26pc 13cm;
+        background-repeat: repeat;*/
+        background-image: none;
     }
     
     
@@ -526,6 +527,7 @@ h5{
         height: auto;
     }
     
+    
     .navbar{
         display:flex;
         align-items: center;
@@ -533,16 +535,17 @@ h5{
        
     }
     
+    
     .welcomeP{
         font-size: 21px;
     }
 
     
+    
     .h5{
         font-size: 13px;
         
     }
-    
     
     
     .navbarP2{
@@ -559,10 +562,10 @@ h5{
    
     .home1{
         border-top: 50px solid rgba(45, 52, 75, 0.897); 
-        background-color: rgba(213, 216, 223, 0.795);
         height: 280px;
    }
 
+   
    
    .home2{
        height: auto;
@@ -571,7 +574,7 @@ h5{
 
     .home5,
     .home4{
-        height: 270px;
+        height: 100px;
     }
     
     .link{
