@@ -20,7 +20,7 @@ const Projects = () => {
                 <a href = "https://app-booking.herokuapp.com/" >
                 <img className ="shell" alt = '' src = {group}/>
                 </a>
-                <p className = 'exchangeText'> User friendly appointment booking platform, a full-stack application with user authentication, login and signup with password encryption and protected routes. Bookings are stored in MongoDB.</p>
+                <p className = 'exchangeText'> Jetski rental appointment booking platform, a full-stack application with user authentication, login and signup with password encryption and protected routes. Bookings are stored in MongoDB and sorted on the front-end.</p>
                 <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                     <div className = "git2"></div>
                 </a>
@@ -41,7 +41,7 @@ const Projects = () => {
                 <a href= "https://shell-game.herokuapp.com/body">
                 <img className = "shell" alt = '' src = {shell}/>
                 </a>
-                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and lots of JavaScript. Custom API routes built with Mongoose and Express to save player info in MongoDB.
+                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript.Custom API routes built with Mongoose and Express to save player info in MongoDB.
                 </p>
                 <a className = 'git1' href = "https://github.com/alexnmc/shell-game ">
                     <div className = "git2"></div>
