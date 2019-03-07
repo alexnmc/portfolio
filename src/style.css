@@ -557,15 +557,12 @@ h5{
     }
     
    
-   
     .home1{
-    border-top: 50px solid rgba(45, 52, 75, 0.897); 
-    background-color: rgba(213, 216, 223, 0.795);
-    height: 280px;
+        border-top: 50px solid rgba(45, 52, 75, 0.897); 
+        background-color: rgba(213, 216, 223, 0.795);
+        height: 280px;
    }
 
-   
-   
    
    .home2{
        height: auto;
