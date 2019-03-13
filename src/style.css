@@ -309,7 +309,7 @@ h1{
     font-weight: 700;
     text-align: center;
     width:auto;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 256);
     
 }
 
@@ -442,7 +442,7 @@ h5{
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, 1px) rotate(-1deg); }
-  }
+}
 
 
 .projects{
