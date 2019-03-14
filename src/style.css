@@ -259,8 +259,8 @@ li{
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
-    height: 47px;
-    width: 47px;
+    height: 5.2vh;
+    width: 3.0vw;
     background-position: center ;
     background-size: cover;
     display:flex;
