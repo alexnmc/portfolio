@@ -263,7 +263,7 @@ li{
 
 .fixed{
     height: 16vh;
-    width: 15vh;
+    width: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
