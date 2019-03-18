@@ -20,7 +20,8 @@ const Projects = () => {
                 <a href = "https://app-booking.herokuapp.com/" >
                 <img className ="shell" alt = '' src = {group}/>
                 </a>
-                <p className = 'exchangeText'> Appointment booking platform, a full-stack application with user authentication, login and signup with password encryption and protected routes. Bookings are stored in MongoDB and sorted on the front-end.</p>
+                <p className = 'exchangeText'> Rental booking platform, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
+                   endpoints for both routing and for post/put/delete CRUD functionality.</p>
                 <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                     <div className = "git2"></div>
                 </a>
