@@ -7,8 +7,6 @@ const Contact = () => {
             <h1>Contact me: </h1>
             <p>Phone: 954-200-4732</p>
             <p>Email: nemechekalexander@gmail.com</p>
-            <p>Address: </p>
-            <p>Dania, Florida, 33004</p>
         </div>
         </div>
     )
