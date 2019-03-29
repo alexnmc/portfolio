@@ -16,28 +16,27 @@ const Projects = () => {
         
         <div className="projects">
             
-        <div className = 'excDiv'>
-                <a href = "https://app-booking.herokuapp.com/" >
-                <img className ="shell" alt = '' src = {group}/>
-                </a>
-                <p className = 'exchangeText'> Rental booking platform, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
-                   endpoints for both routing and for post/put/delete CRUD functionality.</p>
-                <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
-                    <div className = "git2"></div>
-                </a>
-        </div>
-
-
             <div className = 'excDiv'>
-                <a href = "http://exrates.surge.sh">
-                <img className ="exchange" alt = '' src = {exchange}/>
-                </a>
-                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, having Euro as base currency. The app gets the data from the Fixer API using Axios.</p>
-                <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
-                    <div className = "git2"></div>
-                </a>
+                    <a href = "https://app-booking.herokuapp.com/" >
+                    <img className ="shell" alt = '' src = {group}/>
+                    </a>
+                    <p className = 'exchangeText'> Rental booking platform, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
+                    endpoints for both routing and for post/put/delete CRUD functionality.</p>
+                    <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
+                        <div className = "git2"></div>
+                    </a>
             </div>
 
+            <div className = 'excDiv'>
+                    <a href = "https://newschannel.netlify.com/" >
+                    <img className ="shell" alt = '' src = {news}/>
+                    </a>
+                    <p className = 'exchangeText'>Daily News, a compact, single page REACT application displaying articles through Axios requests made to over 30 news APIs, updated live.</p>
+                    <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
+                        <div className = "git2"></div>
+                    </a>
+            </div>
+            
             <div className = ' shellDiv'>
                 <a href= "https://shell-game.herokuapp.com/body">
                 <img className = "shell" alt = '' src = {shell}/>
@@ -61,11 +60,11 @@ const Projects = () => {
             </div>
             
             <div className = 'excDiv'>
-                <a href = "https://newschannel.netlify.com/" >
-                <img className ="shell" alt = '' src = {news}/>
+                <a href = "http://exrates.surge.sh">
+                <img className ="exchange" alt = '' src = {exchange}/>
                 </a>
-                <p className = 'exchangeText'>Daily News, a compact, single page REACT application displaying articles through Axios requests made to over 30 news APIs, updated live.</p>
-                <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
+                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, having Euro as base currency. The app gets the data from the Fixer API using Axios.</p>
+                <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
                     <div className = "git2"></div>
                 </a>
             </div>
