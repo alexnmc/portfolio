@@ -15,7 +15,6 @@ const Projects = () => {
             <p className = "work">Projects:</p>
         
         <div className="projects">
-            
             <div className = 'excDiv'>
                     <a href = "https://app-booking.herokuapp.com/" >
                     <img className ="shell" alt = '' src = {group}/>
@@ -48,7 +47,6 @@ const Projects = () => {
                 </a>
             </div>
 
-            
             <div className = 'excDiv'>
                 <a href = "https://www.valentinapan.com" >
                 <img className ="shell" alt = '' src = {realestate}/>
@@ -68,7 +66,6 @@ const Projects = () => {
                     <div className = "git2"></div>
                 </a>
             </div>
-
         </div>
        
         </div>
