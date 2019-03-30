@@ -581,7 +581,7 @@ h5{
    
     .home1{
         border-top: 50px solid rgba(45, 52, 75, 0.897); 
-        height: 200px;
+        height: 220px;
     }
 
    
@@ -590,11 +590,13 @@ h5{
    }
 
 
-   .home5,
-   .home4{
+   .home5{
         height: 100px;
     }
     
+    .home4{
+        height: 200px;
+    }
     
     .link{
         font-size: 20px;
