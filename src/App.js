@@ -22,7 +22,7 @@ class App extends Component {
         if(this.state.navbarP2.color ===  'black') {
             this.setState(
                 { 
-                navbarP2: { color: 'white'}
+                navbarP2: { color: 'blue'}
                 }
             )
         } else {

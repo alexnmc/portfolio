@@ -533,6 +533,11 @@ h5{
         background-image: none;
     }
     
+    .home1,
+    .home4,
+    .home5{
+        background-color: aliceblue;
+    }
     
     
     .inline{
