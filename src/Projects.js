@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
 
             <div className = 'excDiv'>
-                    <a href = "https://newschannel.netlify.com/" >
+                    <a href = "https://www.news-forme.com" >
                     <img className ="shell" alt = '' src = {news}/>
                     </a>
                     <p className = 'exchangeText'>Daily News, a fully responsive, compact, single page REACT application displaying news articles updated live.</p>
