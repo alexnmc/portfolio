@@ -15,6 +15,18 @@ const Projects = () => {
             <p className = "work">Projects:</p>
         
         <div className="projects">
+        
+            <div className = 'excDiv'>
+                    <a href = "https://www.news-forme.com" >
+                    <img className ="shell" alt = '' src = {news}/>
+                    </a>
+                    <p className = 'exchangeText'>Daily News, a fully responsive, compact, single page REACT application displaying news articles and live streaming news channels.</p>
+                    <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
+                        <div className = "git2"></div>
+                    </a>
+            </div>
+            
+            
             <div className = 'excDiv'>
                     <a href = "https://app-booking.herokuapp.com/" >
                     <img className ="shell" alt = '' src = {group}/>
@@ -26,16 +38,6 @@ const Projects = () => {
                     </a>
             </div>
 
-            <div className = 'excDiv'>
-                    <a href = "https://www.news-forme.com" >
-                    <img className ="shell" alt = '' src = {news}/>
-                    </a>
-                    <p className = 'exchangeText'>Daily News, a fully responsive, compact, single page REACT application displaying news articles updated live.</p>
-                    <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
-                        <div className = "git2"></div>
-                    </a>
-            </div>
-            
             <div className = ' shellDiv'>
                 <a href= "https://shell-game.herokuapp.com/body">
                 <img className = "shell" alt = '' src = {shell}/>
