@@ -48,6 +48,7 @@ body{
         margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
+        animation: fade 2s;
     
 }
     
@@ -59,6 +60,7 @@ body{
         margin-top: 85px;
         width: auto;
         margin-left:1123px; 
+        animation: fade 2s;
 }
 
 
@@ -76,9 +78,20 @@ body{
     position: relative;
     padding: 10px;
     box-sizing: border-box;
-    border-top: 2px solid  rgb(0, 204, 255, 20);
-    border-bottom: 2px solid  rgb(0, 204, 255, 20);
+    border-top: 1.5px solid  rgb(0, 204, 255, 20);
+    border-bottom: 1.5px solid  rgb(0, 204, 255, 20);
+    animation: fade 3s;
 }  
+
+@keyframes fade{
+
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+
+
+
 
 .home2 p{
     animation: translateToPosition 3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -383,7 +396,7 @@ h5{
     height: 145px;
     width: 120px;
     margin:auto;
-    animation: shake 13s  infinite;
+    animation: fade 1s, shake 13s  infinite;
 }
 
 .react {
@@ -393,7 +406,7 @@ h5{
     height: 70px;
     width: 65px;
     margin:auto;
-    animation: shake 16s  infinite;
+    animation: fade 2s, shake 16s  infinite;
 }
 
 .html {
@@ -404,7 +417,7 @@ h5{
     height: 75px;
     width: 80px;
     margin:auto;
-    animation: shake 14s  infinite;
+    animation: fade 3s, shake 14s  infinite;
 
 }
 
@@ -415,7 +428,7 @@ h5{
     height: 80px;
     width: 50px;
     margin:auto;
-    animation: shake 17s  infinite;
+    animation: fade 4s, shake 17s  infinite;
 }
 
 
@@ -427,7 +440,7 @@ h5{
     height: 65px;
     width: 110px;
     margin:auto;
-    animation: shake 16s  infinite;
+    animation: fade 5s, shake 16s  infinite;
 
 }
 
@@ -439,7 +452,7 @@ h5{
     height: 61px;
     width: 61px;
     margin:auto;
-    animation: shake 15s  infinite;
+    animation: fade 6s, shake 15s  infinite;
 }
 
 @keyframes shake {

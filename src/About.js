@@ -4,7 +4,10 @@ import resume from './Photos/resume.pdf'
 
 
 const About = () => {
+    
+
     return (
+
         <div className="about" id = '2'>
             <div className = "home3">
                 
