@@ -38,7 +38,7 @@ body{
 
 
 .navbarP2{
-        color:rgb(17, 32, 36);
+       
         font-size: 27px;
         font-family: 'verdana';
         font-weight: 600;
@@ -53,7 +53,7 @@ body{
 }
     
 .developer{
-        color: rgb(8, 54, 139);
+        color: rgba(0, 29, 82, 0.712);
         font-size: 18px;
         font-family: 'verdana';
         font-weight: 600;
