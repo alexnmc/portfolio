@@ -17,10 +17,10 @@ const Projects = () => {
         <div className="projects">
         
             <div className = 'excDiv'>
-                    <a href = "https://www.news-forme.com" >
+                    <a href = "https://www.news-foryou.com" >
                     <img className ="shell" alt = '' src = {news}/>
                     </a>
-                    <p className = 'exchangeText'>Daily News, a fully responsive, compact, single page REACT application displaying news articles and live streaming news channels.</p>
+                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying news articles and live streaming news channels.</p>
                     <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
                         <div className = "git2"></div>
                     </a>
