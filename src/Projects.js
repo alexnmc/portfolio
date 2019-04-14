@@ -42,7 +42,7 @@ const Projects = () => {
                 <a href= "https://shell-game.herokuapp.com/body">
                 <img className = "shell" alt = '' src = {shell}/>
                 </a>
-                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript.Custom API routes built with Mongoose and Express to save player info in MongoDB.
+                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript. Custom API routes built with Mongoose and Express to save player info in MongoDB.
                 </p>
                 <a className = 'git1' href = "https://github.com/alexnmc/shell-game ">
                     <div className = "git2"></div>
