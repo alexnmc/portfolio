@@ -518,13 +518,11 @@ h5{
 
 
 .excDiv2{
-    
     width: 290px;
     height: 350px;
     border-radius: 5px;
     margin: 4%;
     display: block;
-    
 }
 
 
@@ -583,7 +581,6 @@ h5{
     
     .h5{
         font-size: 13px;
-        
     }
     
     
@@ -595,7 +592,6 @@ h5{
         font-size: 22px;
         text-align: center;
         width: auto;
-       
     }
     
    
@@ -605,12 +601,12 @@ h5{
     }
 
    
-   .home2{
+    .home2{
        height: auto;
-   }
+    }
 
 
-   .home5{
+    .home5{
         height: 100px;
     }
     
@@ -654,7 +650,6 @@ h5{
     .projects{
         display:block;
         height: auto;
-       
     }
     
     
@@ -676,7 +671,6 @@ h5{
         width:135px;
         margin-top: 40px;
         margin-bottom: 20px;
-        
     }
     
     
@@ -698,7 +692,6 @@ h5{
         display:flex;
         align-items: center;
         justify-content: center;
-        
     }
 
     
@@ -706,13 +699,12 @@ h5{
         height: 40px;
         width: 40px;
         margin: auto;
-        
     }
     
     
     .html,
     .css
-    {
+    {   
         height: 45px;
         width: 45px;
         margin: auto;
@@ -750,25 +742,22 @@ h5{
 
 
 
-      ul{
-          margin: 10%;
+    ul{   
+        margin: 10%;
           width:auto;
           padding: 0px;
-          
-      }
+    }
 
-      li{
+    li{
           font-size: 14px;
           width: auto;
           margin: 10px;
-          
-      }
+    }
 
-      .contact1{
+    .contact1{
           font-size: 17px;
           padding: 10px;
-    
-      }
+    }
 
       .resume,
       .linkedin,
@@ -778,6 +767,7 @@ h5{
           margin-left: 30px;
       }
 
+    
     .git,
     .resume,
     .linkedin{
@@ -792,8 +782,7 @@ h5{
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       
-   }
+    }
 
    
    .shellDiv,
@@ -819,10 +808,10 @@ h5{
    .exchangeText,
    .shellText{
        font-size: 15px;
-       
-   }
+    }
 
-   .react1 {
+   
+    .react1 {
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
