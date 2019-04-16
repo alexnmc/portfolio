@@ -812,14 +812,13 @@ h5{
 
    
     .react1 {
-    background-image: url( './Photos/react.png')  ; 
-    background-position: center;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    margin:auto;
-    margin-top: 5px;
-    animation: reverseLogo 5s linear infinite
-}
-
+        background-image: url( './Photos/react.png')  ; 
+        background-position: center;
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+        margin:auto;
+        margin-top: 5px;
+        animation: reverseLogo 5s linear infinite
+    }
 }
