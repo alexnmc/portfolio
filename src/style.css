@@ -22,10 +22,10 @@ body{
 .link{
     font-size: 20px;
     font-weight: 500;
-    font-family: 'verdana';
+    font-family: 'helvetica';
     text-decoration: none;
     margin: 27px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: rgb(255, 255, 255);
 }
 
@@ -38,9 +38,8 @@ body{
 
 
 .navbarP2{
-       
         font-size: 27px;
-        font-family: 'verdana';
+        font-family: 'helvetica';
         font-weight: 600;
         margin-top: 50px;
         width: auto;
@@ -49,15 +48,14 @@ body{
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
-    
 }
     
 .developer{
         color: rgba(0, 29, 82, 0.712);
         font-size: 18px;
-        font-family: 'verdana';
+        font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 85px;
+        margin-top: 80px;
         width: auto;
         margin-left:1123px; 
         animation: fade 2s;
@@ -69,14 +67,14 @@ body{
  height: 350px;
  width: auto;
  background-color:  rgba(32, 50, 83, 0.24);
- border-top: 60px solid rgba(16, 16, 31, 0.774);
+ border-top: 50px solid rgba(16, 16, 31, 0.774);
 }
 
 
 .home2{ 
     background-color: rgba(16, 16, 31, 0.89);
     position: relative;
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
     border-top: 1.5px solid  rgb(0, 204, 255, 20);
     border-bottom: 1.5px solid  rgb(0, 204, 255, 20);
@@ -88,8 +86,6 @@ body{
     from{opacity: 0}
     to{opacity: 1}
 }
-
-
 
 
 
@@ -112,6 +108,7 @@ body{
     }
 }
 
+
 .home2 h5{
     animation: translateToPosition1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
@@ -131,6 +128,7 @@ body{
         opacity: 1;
     }
 }
+
 
 .home3 {
    
@@ -160,7 +158,7 @@ body{
 
 .aboutP{
     
-    font-family: 'verdana';
+    font-family: 'helvetica';
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'verdana';
@@ -223,15 +221,14 @@ li{
     border: 10px solid black;
     border-radius: 10px;
     position: relative
-   
-    
 }
 
-.linkedin:hover{
 
+.linkedin:hover{
     height: 55px;
     width: 55px;
 }
+
 
 .git{
     background-image: url( './Photos/git.png')  ; 
@@ -246,8 +243,8 @@ li{
     border-radius: 300px;
 }
 
-.git:hover{
 
+.git:hover{
     height: 58px;
     width: 58px;
 }
@@ -264,11 +261,10 @@ li{
     transition: 0.5s ease-in-out 0.2s;
     border: 6px solid black;
     border-radius: 10px;
-
 }
 
-.resume:hover{
 
+.resume:hover{
     height: 55px;
     width: 55px;
 }
@@ -281,6 +277,7 @@ li{
     align-items: center;
     justify-content: center;
 }
+
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
@@ -308,46 +305,45 @@ li{
     font-size: 24px;
 }
 
+
 .contact1{
     display: block;
-
 }
  
 
+
 h1{
-     margin-bottom: 40px;
- }
+    margin-bottom: 40px;
+}
 
  
- 
- .work{
+.work{
      text-align: center;
      margin-top:  10px;
      font-size: 27px;
- }
+}
 
 
  .welcomeP{
-    
     font-size: 27px;
-    font-family: 'verdana';
+    font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
     width:auto;
     color: white;
-    
 }
+
 
 h5{
     color: rgba(233, 233, 233, 0.678);
     font-size: 17px;
-    font-family: 'verdana';
+    font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 10px;
-    
+    margin-top: 5px;
 }
+
 
 
 .react1 {
@@ -360,6 +356,7 @@ h5{
     animation: reverseLogo 5s linear infinite
 }
 
+
 @keyframes reverseLogo{
     from{
         transform: rotateZ(0deg)
@@ -369,11 +366,13 @@ h5{
     }
 }
 
+
 .logos {
     display: flex;
     width: 850px;
     margin:auto;
 }
+
 
 
 .ID {
@@ -399,6 +398,7 @@ h5{
     animation: fade 1s, shake 13s  infinite;
 }
 
+
 .react {
     background-image: url( './Photos/react2.png')  ; 
     background-position: center;
@@ -408,6 +408,7 @@ h5{
     margin:auto;
     animation: fade 2s, shake 16s  infinite;
 }
+
 
 .html {
     background-image: url( './Photos/html.png')  ; 
@@ -420,6 +421,7 @@ h5{
     animation: fade 3s, shake 14s  infinite;
 
 }
+
 
 .css {
     background-image: url( './Photos/css.png')  ; 
@@ -445,6 +447,7 @@ h5{
 }
 
 
+
 .mongo{
     background-image: url( './Photos/mongo.png')  ; 
     background-position: center;
@@ -454,6 +457,7 @@ h5{
     margin:auto;
     animation: fade 6s, shake 15s  infinite;
 }
+
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -470,6 +474,7 @@ h5{
 }
 
 
+
 .projects{
     display: flex;
     align-items: center;
@@ -483,18 +488,19 @@ h5{
     background-color: rgba(16, 16, 31, 0.972);
     border-bottom: 2px solid rgb(0, 204, 255,20);
     border-top: 2px solid rgb(0, 204, 255,20);
-    font-family: 'verdana';
+    font-family: 'helvetica';
     color: white;
     display: block;
     height: auto;
-    padding:40px;
-    
+    padding:20px;
 }
+
 
 .exchange{
     width: 300px;
     height: 182px
 }
+
 
 .shell{
     width: 300px;
@@ -503,11 +509,10 @@ h5{
 
 
 .excDiv{
-    
     width: 290px;
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
-    margin: 5%;
+    margin: 4%;
     display: block;
 }
 
@@ -515,9 +520,9 @@ h5{
 .excDiv2{
     
     width: 290px;
-    height: 400px;
+    height: 350px;
     border-radius: 5px;
-    margin: 5%;
+    margin: 4%;
     display: block;
     
 }
@@ -525,12 +530,13 @@ h5{
 
 .shellDiv{
     width: 290px;
-    height: 400px;
+    height: 350px;
     /* border: 4px solid rgb(255, 255, 255); */
     border-radius: 5px;
-    margin: 5%;
+    margin: 4%;
     display:block;
 }
+
 
 .exchangeText,
 .shellText{
