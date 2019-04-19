@@ -549,7 +549,7 @@ h5{
     .home1,
     .home4,
     .home5{
-        background-color: aliceblue;
+        background-color: rgba(10, 11, 31, 0.445);
     }
     
     
@@ -569,7 +569,7 @@ h5{
     
     
     .welcomeP{
-        font-size: 21px;
+        font-size: 20px;
     }
 
     
@@ -587,12 +587,13 @@ h5{
         font-size: 22px;
         text-align: center;
         width: auto;
+        color: white;
     }
     
    
     .home1{
-        border-top: 50px solid rgba(45, 52, 75, 0.897); 
-        height: 220px;
+        border-top: 50px solid rgba(23, 27, 39, 0.897); 
+        height: 45vh;
     }
 
    
@@ -602,11 +603,11 @@ h5{
 
 
     .home5{
-        height: 100px;
+        height: 45vh;
     }
     
     .home4{
-        height: 200px;
+        height: 45vh;
     }
     
     .link{
@@ -630,6 +631,7 @@ h5{
         margin-bottom: 200px;
         margin-top:0px;
         text-align: center;
+        color: rgba(235, 235, 235, 0.966);
     }
     
     
