@@ -208,8 +208,8 @@ li{
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
-    height: 30pt;
-    width: 30pt;
+    height: 31pt;
+    width: 31pt;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -217,20 +217,21 @@ li{
     transition: 0.5s ease-in-out 0.2s;
     border: 10px solid black;
     border-radius: 10px;
-    position: relative
+    position: relative;
+    transition: 0.3s
 }
 
 
 .linkedin:hover{
-    height: 40pt;
-    width: 40pt;
+    height: 37pt;
+    width: 37pt;
 }
 
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 30pt;
-    width: 30pt;
+    height: 30.7pt;
+    width: 30.5pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -238,12 +239,13 @@ li{
     transition: 0.5s ease-in-out 0.2s;
     border: 5px solid black;
     border-radius: 300px;
+    transition: 0.3s
 }
 
 
 .git:hover{
-    height: 40pt;
-    width: 40pt;
+    height: 37pt;
+    width: 37pt;
 }
 
 
@@ -258,12 +260,13 @@ li{
     transition: 0.5s ease-in-out 0.2s;
     border: 6px solid black;
     border-radius: 10px;
+    transition: 0.3s
 }
 
 
 .resume:hover{
-    height: 40pt;
-    width: 40pt;
+    height: 37pt;
+    width: 37pt;
 }
 
 
