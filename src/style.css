@@ -392,8 +392,8 @@ h5{
     background-image: url( './Photos/javascript.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 145px;
-    width: 120px;
+    height: 100pt;
+    width: 100pt;
     margin:auto;
     animation: fade 1s, shake 13s  infinite;
 }
@@ -403,8 +403,8 @@ h5{
     background-image: url( './Photos/react2.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 70px;
-    width: 65px;
+    height: 45pt;
+    width: 40pt;
     margin:auto;
     animation: fade 2s, shake 16s  infinite;
 }
@@ -415,8 +415,8 @@ h5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 75px;
-    width: 80px;
+    height: 47pt;
+    width: 50pt;
     margin:auto;
     animation: fade 3s, shake 14s  infinite;
 
@@ -427,8 +427,8 @@ h5{
     background-image: url( './Photos/css.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 80px;
-    width: 50px;
+    height: 50pt;
+    width: 30pt;
     margin:auto;
     animation: fade 4s, shake 17s  infinite;
 }
@@ -439,8 +439,8 @@ h5{
     background-image: url( './Photos/node.png')  ; 
     background-position: center ;
     background-size: cover;
-    height: 65px;
-    width: 110px;
+    height: 45pt;
+    width: 73pt;
     margin:auto;
     animation: fade 5s, shake 16s  infinite;
 
@@ -452,8 +452,8 @@ h5{
     background-image: url( './Photos/mongo.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 61px;
-    width: 61px;
+    height: 40pt;
+    width: 40pt;
     margin:auto;
     animation: fade 6s, shake 15s  infinite;
 }
@@ -647,6 +647,7 @@ h5{
         font-size:15px;
     }
 
+    
     .projects{
         display:block;
         height: auto;
