@@ -379,8 +379,8 @@ h5{
     background-image: url( './Photos/portfolio.jpg')  ; 
     background-position: center;
     background-size: cover;
-    height: 110pt;
-    width: 110pt;
+    height: 105pt;
+    width: 105pt;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 100px;
     margin:auto;
