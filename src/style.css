@@ -38,7 +38,7 @@ body{
 
 
 .navbarP2{
-        font-size: 27px;
+        font-size: 25px;
         font-family: 'helvetica';
         font-weight: 600;
         margin-top: 50px;
@@ -52,12 +52,12 @@ body{
     
 .developer{
         color: rgba(0, 29, 82, 0.712);
-        font-size: 18px;
+        font-size: 17px;
         font-family: 'helvetica';
         font-weight: 600;
         margin-top: 80px;
         width: auto;
-        margin-left:1123px; 
+        margin-left:1115px; 
         animation: fade 2s;
 }
 
@@ -211,8 +211,8 @@ li{
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
-    height: 44px;
-    width: 44px;
+    height: 30pt;
+    width: 30pt;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -225,15 +225,15 @@ li{
 
 
 .linkedin:hover{
-    height: 55px;
-    width: 55px;
+    height: 40pt;
+    width: 40pt;
 }
 
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 45px;
-    width: 45px;
+    height: 30pt;
+    width: 30pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -245,15 +245,15 @@ li{
 
 
 .git:hover{
-    height: 58px;
-    width: 58px;
+    height: 40pt;
+    width: 40pt;
 }
 
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 43px;
-    width: 44px;
+    height: 30pt;
+    width: 30pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -265,8 +265,8 @@ li{
 
 
 .resume:hover{
-    height: 55px;
-    width: 55px;
+    height: 40pt;
+    width: 40pt;
 }
 
 
@@ -281,8 +281,8 @@ li{
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
-    height: 5.5vh;
-    width: 3.0vw;
+    height: 31pt;
+    width: 31pt;
     background-position: center ;
     background-size: cover;
     display:flex;
