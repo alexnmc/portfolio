@@ -38,12 +38,12 @@ body{
 
 
 .navbarP2{
-        font-size: 25px;
+        font-size: 19pt;
         font-family: 'helvetica';
         font-weight: 600;
         margin-top: 50px;
         width: auto;
-        margin-left: 1064px;
+        margin-left: 800pt;
         margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
@@ -52,12 +52,12 @@ body{
     
 .developer{
         color: rgba(0, 29, 82, 0.712);
-        font-size: 17px;
+        font-size: 14pt;
         font-family: 'helvetica';
         font-weight: 600;
         margin-top: 80px;
         width: auto;
-        margin-left:1115px; 
+        margin-left:830pt; 
         animation: fade 2s;
 }
 
@@ -253,7 +253,7 @@ li{
 .resume{
     background-image: url( './Photos/cv.png')  ; 
     height: 30pt;
-    width: 30pt;
+    width: 29pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -325,7 +325,7 @@ h1{
 
 
  .welcomeP{
-    font-size: 27px;
+    font-size: 19pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -336,7 +336,7 @@ h1{
 
 h5{
     color: rgba(233, 233, 233, 0.678);
-    font-size: 17px;
+    font-size: 12pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -350,8 +350,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 60px;
-    width: 60px;
+    height: 40pt;
+    width: 40pt;
     margin:auto;
     animation: reverseLogo 5s linear infinite
 }
@@ -379,8 +379,8 @@ h5{
     background-image: url( './Photos/portfolio.jpg')  ; 
     background-position: center;
     background-size: cover;
-    height: 160px;
-    width: 160px;
+    height: 110pt;
+    width: 110pt;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 100px;
     margin:auto;

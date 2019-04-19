@@ -15,23 +15,25 @@ const About = () => {
                 </div>
                 
                 <div className = 'inline'>
+                        
+                        <div className = "fixed">
+                        <a className = 'git1' href = "https://github.com/alexnmc ">
+                            <div className = "git"></div>
+                        </a>
+                        </div>
+
                         <div className = "fixed">
                         <a className = 'linkedin1' href = "https://www.linkedin.com/in/alexander-nemechek-10240a167">
                             <div className = "linkedin"></div>
                         </a>
                         </div>
-                       <div className = "fixed">
-                        <a className = 'git1' href = "https://github.com/alexnmc ">
-                            <div className = "git"></div>
-                        </a>
-                        </div>
+                        
                         <div className = "fixed">
                         <a className = 'resume1' href = {resume} >
                             <div className = "resume"></div>
                         </a>
                         </div>
                        
-                        
                 </div>
 
                     <p className = "aboutP">
