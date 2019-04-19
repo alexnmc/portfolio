@@ -131,7 +131,7 @@ body{
 
 
 .home3 {
-    background-color: rgba(16, 16, 31, 0.972);
+    background-color:rgba(12, 12, 20, 0.966);
     height: 850px;
     padding: 50px;
     border-bottom: 2px solid rgb(0, 204, 255,20);
@@ -215,7 +215,7 @@ li{
     display: inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 10px solid black;
+    border: 10px solid rgb(0, 0, 0);
     border-radius: 10px;
     position: relative;
     transition: 0.3s
@@ -237,7 +237,7 @@ li{
     display:inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 300px;
     transition: 0.3s
 }
@@ -258,7 +258,7 @@ li{
     display:inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 6px solid black;
+    border: 6px solid rgb(0, 0, 0);
     border-radius: 10px;
     transition: 0.3s
 }
@@ -294,8 +294,8 @@ li{
 
 
 .contact{
-    background-color: rgba(16, 16, 31, 0.972);
-    height: 500px;
+    background-color:rgba(12, 12, 20, 0.966);
+    height: 57vh;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -481,7 +481,7 @@ h5{
 
 
 .projects1{
-    background-color: rgba(16, 16, 31, 0.972);
+    background-color:rgba(12, 12, 20, 0.966);
     border-bottom: 2px solid rgb(0, 204, 255,20);
     border-top: 2px solid rgb(0, 204, 255,20);
     font-family: 'helvetica';
