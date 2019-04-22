@@ -41,9 +41,9 @@ body{
         font-size: 19pt;
         font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 50px;
-        width: auto;
-        margin-left: 800pt;
+        margin-top: 9vh;
+        width: 50%;
+        margin-left: 77vw;
         margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
@@ -55,9 +55,10 @@ body{
         font-size: 14pt;
         font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 80px;
-        width: auto;
-        margin-left:830pt; 
+        margin-top: 12.5vh;
+        width: 50%;
+        margin-left:80vw; 
+        margin-right: 0px;
         animation: fade 2s;
 }
 
