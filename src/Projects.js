@@ -4,6 +4,7 @@ import shell from  './Photos/shellgame.png'
 import group from './Photos/group.png'
 import realestate from './Photos/realestate.png'
 import news from './Photos/news.png'
+import newPic from './Photos/news2.png'
 
 
 
@@ -20,8 +21,19 @@ const Projects = () => {
                     <a href = "https://www.news-foryou.com" >
                     <img className ="shell" alt = '' src = {news}/>
                     </a>
-                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying news articles and live streaming news channels.</p>
+                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.</p>
                     <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
+                        <div className = "git2"></div>
+                    </a>
+            </div>
+
+
+            <div className = 'excDiv'>
+                    <a href = "https://news-for-you.herokuapp.com/" >
+                    <img className ="shell" alt = '' src = {newPic}/>
+                    </a>
+                    <p className = 'exchangeText'>This is the full-stack version of the NewsForYou project with user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
+                    <a className = 'git1' href = " https://github.com/alexnmc/news-for-you">
                         <div className = "git2"></div>
                     </a>
             </div>
