@@ -32,7 +32,7 @@ const Projects = () => {
                     <a href = "https://news-for-you.herokuapp.com/" >
                     <img className ="shell" alt = '' src = {newPic}/>
                     </a>
-                    <p className = 'exchangeText'>This is the full-stack version of the NewsForYou project with user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
+                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/news-for-you">
                         <div className = "git2"></div>
                     </a>
