@@ -596,11 +596,9 @@ h5{
         height: 45vh;
     }
 
-   
     .home2{
        height: auto;
     }
-
 
     .home5{
         height: 45vh;
@@ -631,9 +629,8 @@ h5{
         margin-bottom: 200px;
         margin-top:0px;
         text-align: center;
-        color: rgba(55, 55, 55, 0.966);
+        color: rgba(55, 55, 55, 0.721);
     }
-    
     
     
     .aboutP{
@@ -649,7 +646,6 @@ h5{
         height: auto;
     }
     
-    
     .home3{
        padding:10px;
        height: 980PX;
@@ -661,7 +657,6 @@ h5{
         margin-bottom: 20px;
     }
 
-    
     .ID{
         height: 135px;
         width:135px;
