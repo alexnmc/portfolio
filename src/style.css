@@ -550,7 +550,7 @@ h5{
     .home1,
     .home4,
     .home5{
-        background-color: rgba(10, 11, 31, 0.445);
+        background-color: rgba(255, 255, 255, 0.975);
     }
     
     
@@ -730,13 +730,11 @@ h5{
     }
 
 
-    
     .provide{
         width:auto;
         height:auto;
         display:flex;
     }
-
 
 
     ul{   
@@ -745,12 +743,14 @@ h5{
         padding: 0px;
     }
 
+   
     li{
         font-size: 14px;
         width: auto;
         margin: 10px;
     }
 
+    
     .contact1{
         font-size: 17px;
         padding: 10px;

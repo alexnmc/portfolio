@@ -5,7 +5,7 @@ const Contact = () => {
         <div className = "contact" id = '4' >
         <div className = "contact1">
             <h1>Contact me: </h1>
-            <p>Phone: 954-200-4732</p>
+            
             <p>Email: nemechekalexander@gmail.com</p>
         </div>
         </div>
