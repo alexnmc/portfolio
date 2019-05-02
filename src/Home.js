@@ -8,7 +8,7 @@ const Home = props => {
         
             <div className = "home1"> 
                 <p className = 'navbarP2' style = {props.style.navbarP2} > Alexander Nemechek </p>
-                
+                 <p className = 'developer'></p>
             </div>
         
             <div className = "home2">
