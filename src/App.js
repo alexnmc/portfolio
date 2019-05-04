@@ -12,37 +12,15 @@ class App extends Component {
         super()
    
         this.state = {
-         navbarP2 : { color: 'rgba(0, 29, 82, 0.90)'}
+         
          }
     }
     
-
-   
-    changeColor = () => {
-        if(this.state.navbarP2.color ===  'rgba(0, 29, 82, 0.90)') {
-            this.setState(
-                { 
-                navbarP2: { color: 'rgba(32, 50, 83, 0.84)'}
-                }
-            )
-        } else {
-            this.setState(
-                { 
-                navbarP2: { color: 'rgba(0, 29, 82, 0.90)'}
-                }
-            )
-        }
-    }
-
-    
-   
-   render(){
+    render(){
         return (
             <div>
-                <Navbar />
-                <Home  changeColor = {this.changeColor}
-                       style = {this.state}
-                />
+                <Navbar/>
+                <Home />
                 <About/>
                 <Projects/>
                 <Contact/>
