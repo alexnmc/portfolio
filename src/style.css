@@ -48,7 +48,7 @@ body{
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
-        color: rgb(0, 10, 43);
+        color: rgba(2, 2, 48, 0.932);
 }
     
 .developer{
