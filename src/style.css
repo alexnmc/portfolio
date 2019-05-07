@@ -351,8 +351,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 32pt;
-    width: 32pt;
+    height: 35pt;
+    width: 35pt;
     margin:auto;
     animation: reverseLogo 5s linear infinite
 }
