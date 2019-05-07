@@ -20,7 +20,7 @@ body{
 
 
 .link{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
     font-family: 'helvetica';
     text-decoration: none;
@@ -326,7 +326,7 @@ h1{
 
 
 .welcomeP{
-    font-size: 19pt;
+    font-size: 17pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -585,7 +585,7 @@ h5{
         margin-top: 170px;
         position: inherit;
         font-weight: bolder;
-        font-size: 22px;
+        font-size: 20pt;
         text-align: center;
         width: auto;
        
