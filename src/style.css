@@ -585,7 +585,7 @@ h5{
         margin-top: 170px;
         position: inherit;
         font-weight: bolder;
-        font-size: 17pt;
+        font-size: 16pt;
         text-align: center;
         width: auto;
        
@@ -610,7 +610,7 @@ h5{
     }
     
     .link{
-        font-size: 18pt;
+        font-size: 13pt;
         margin: auto;
         color: white;
         font-family: "trebuchet ms";
@@ -621,7 +621,7 @@ h5{
     }
 
     .developer{
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'verdana';
         font-weight: 600;
         width: 200px;
