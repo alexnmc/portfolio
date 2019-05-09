@@ -20,7 +20,7 @@ body{
 
 
 .link{
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
     font-family: 'helvetica';
     text-decoration: none;
@@ -38,17 +38,18 @@ body{
 
 
 .navbarP2{
-        font-size: 17pt;
+        font-size: 16pt;
         font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 9vh;
+        margin-top: 4vh;
         width: 20%;
         margin-left: 77vw;
         margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
-        color: rgba(2, 2, 48, 0.932);
+        color: rgba(33, 52, 88, 0.932);
+        position:fixed;
 }
     
 .developer{
@@ -209,8 +210,8 @@ li{
 
 .linkedin{
     background-image: url( './Photos/linkedin.png')  ; 
-    height: 31pt;
-    width: 31pt;
+    height: 30pt;
+    width: 30pt;
     background-position: center;
     background-size: cover;
     display: inline-block;
@@ -231,8 +232,8 @@ li{
 
 .git{
     background-image: url( './Photos/git.png')  ; 
-    height: 30.7pt;
-    width: 30.5pt;
+    height: 29.7pt;
+    width: 29.5pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -252,8 +253,8 @@ li{
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 30pt;
-    width: 29pt;
+    height: 28pt;
+    width: 28pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
@@ -282,8 +283,8 @@ li{
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
-    height: 31pt;
-    width: 31pt;
+    height: 30pt;
+    width: 30pt;
     background-position: center ;
     background-size: cover;
     display:flex;
@@ -490,6 +491,7 @@ h5{
     display: block;
     height: auto;
     padding:20px;
+    padding-top:50pt;
 }
 
 
