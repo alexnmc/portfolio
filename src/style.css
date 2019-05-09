@@ -36,9 +36,8 @@ body{
 }
 
 
-
 .navbarP2{
-        font-size: 16pt;
+        font-size: 15pt;
         font-family: 'helvetica';
         font-weight: 600;
         margin-top: 4vh;
@@ -76,7 +75,7 @@ body{
 .home2{ 
     background-color: rgba(16, 16, 31, 0.904);
     position: relative;
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
     border-top: 1.5px solid  rgb(0, 204, 255, 20);
     border-bottom: 1.5px solid  rgb(0, 204, 255, 20);
@@ -160,7 +159,7 @@ body{
 .aboutP{
     font-family: 'helvetica';
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 13pt;
     font-family: 'verdana';
     font-weight: 520;
     text-align: center;
@@ -200,7 +199,7 @@ ul{
 
 li{
     color: rgb(250, 250, 250);
-    font-size: 19px;
+    font-size: 12.5pt;
     font-family: 'verdana';
     font-weight: 520;
     margin: auto;
@@ -322,12 +321,12 @@ h1{
 .work{
      text-align: center;
      margin-top:  10px;
-     font-size: 27px;
+     font-size: 25px;
 }
 
 
 .welcomeP{
-    font-size: 17pt;
+    font-size: 15pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
