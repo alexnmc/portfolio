@@ -504,6 +504,7 @@ h5{
     width: 300px;
     height: 182px;
     transition: all 0.3s;
+    margin:auto;
 }
 
 .shell:hover{

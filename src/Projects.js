@@ -90,7 +90,6 @@ class Projects extends Component {
                     </a>
             </div>
 
-
             <div className = 'excDiv'>
                     <a href = "https://news-for-you.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation1()}>
@@ -106,7 +105,6 @@ class Projects extends Component {
                         <div className = "git2"></div>
                     </a>
             </div>
-            
             
             <div className = 'excDiv'>
                     <a href = "https://app-booking.herokuapp.com/" >
