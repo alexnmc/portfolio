@@ -24,8 +24,6 @@ class App extends Component {
                 <About/>
                 <Projects/>
                 <Contact/>
-                
-                
             </div>
         )
     }

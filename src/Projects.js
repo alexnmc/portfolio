@@ -32,7 +32,7 @@ const Projects = () => {
                     <a href = "https://news-for-you.herokuapp.com/" >
                     <img className ="shell" alt = '' src = {newPic}/>
                     </a>
-                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
+                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with user registration and authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/news-for-you">
                         <div className = "git2"></div>
                     </a>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <img className ="shell" alt = '' src = {group}/>
                     </a>
                     <p className = 'exchangeText'> Rental booking platform, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
-                    endpoints for both routing and for post/put/delete CRUD functionality.</p>
+                     endpoints for both routing and for post/put/delete CRUD functionality.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                         <div className = "git2"></div>
                     </a>
