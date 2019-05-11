@@ -508,8 +508,11 @@ h5{
 
 
 .imgWrap{
-    width:330px;
+    width:310px;
     height:194px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     position:relative;
 }
 
