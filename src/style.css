@@ -40,27 +40,31 @@ body{
         font-size: 15pt;
         font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 4vh;
-        width: 20%;
-        margin-left: 77vw;
-        margin-right: 0px;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
         color: rgba(33, 52, 88, 0.932);
-        position:fixed;
+       
 }
     
 .developer{
-        color: rgba(0, 29, 82, 0.712);
-        font-size: 14pt;
+        color: rgba(0, 40, 114, 0.822);
+        font-size: 12pt;
         font-family: 'helvetica';
         font-weight: 600;
-        margin-top: 12.5vh;
-        width: 30%;
-        margin-left:80vw; 
-        margin-right: 0px;
         animation: fade 2s;
+        margin-top: 30pt;
+       
+}
+
+.nameText{
+    height:40pt;
+    width: 350pt;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    margin-top:-75pt;
 }
 
 
@@ -69,6 +73,9 @@ body{
     width: auto;
     background-color:  rgba(32, 50, 83, 0.24);
     border-top: 50px solid rgba(16, 16, 31, 0.774);
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
 }
 
 
@@ -562,7 +569,7 @@ h5{
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 770px) {
 
     body{
        /* background-size: 26pc 13cm;
@@ -590,6 +597,10 @@ h5{
         justify-content: center;
        
     }
+
+    .nameText{
+        margin-top:4pt;
+    }
     
     
     .welcomeP{
@@ -601,19 +612,6 @@ h5{
         font-size: 13px;
     }
     
-    
-    .navbarP2{
-        margin:auto;
-        margin-top: 170px;
-        position: inherit;
-        font-weight: bolder;
-        font-size: 16pt;
-        text-align: center;
-        width: auto;
-       
-    }
-    
-   
     .home1{
         border-top: 50px solid rgba(23, 27, 39, 0.897); 
         height: 45vh;
@@ -642,18 +640,6 @@ h5{
         display: flex;
     }
 
-    .developer{
-        font-size: 14px;
-        font-family: 'verdana';
-        font-weight: 600;
-        width: 200px;
-        margin-left:auto;
-        margin-right: auto;
-        margin-bottom: 200px;
-        margin-top:0px;
-        text-align: center;
-        color: rgba(55, 55, 55, 0.721);
-    }
     
     
     .aboutP{
