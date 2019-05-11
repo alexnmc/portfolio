@@ -14,7 +14,7 @@ class Projects extends Component {
     constructor(props){
         super(props)
         this.state = {
-           loading: 'off',
+           loading:  'off',
            loading1: 'off',
            loading2: 'off',
            loading3: 'off',
@@ -76,7 +76,7 @@ class Projects extends Component {
         
             <div className = 'excDiv'>
                     <a href = "https://www.news-foryou.com" >
-                    <div className = 'imgWrap' onSubmit = {() => this.animation()}>
+                    <div className = 'imgWrap' onClick = {() => this.animation()}>
                         { this.state.loading === 'off' ?
                             <img className ="shell" alt = '' src = {news}/>
                             :
