@@ -43,7 +43,7 @@ body{
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
-        color: rgba(33, 52, 88, 0.932);
+        color: rgba(14, 26, 47, 0.932);
 }
     
 .developer{
