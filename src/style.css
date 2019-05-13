@@ -584,27 +584,27 @@ h5{
         height: auto;
     }
     
-    
     .navbar{
         display:flex;
         align-items: center;
         justify-content: center;
-       
     }
 
+    .navbarP2{
+       font-size:14pt;
+    }
+    
     .nameText{
         margin-top:4pt;
         position:relative;
     }
     
-    
     .welcomeP{
-        font-size: 20px;
+        font-size: 14pt;
     }
 
-    
     .h5{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .home1{
@@ -625,7 +625,7 @@ h5{
     }
     
     .link{
-        font-size: 13pt;
+        font-size: 12pt;
         margin: auto;
         color: white;
         font-family: "trebuchet ms";
@@ -635,8 +635,6 @@ h5{
         display: flex;
     }
 
-    
-    
     .aboutP{
         margin: 12px;
         border: 0px;
@@ -644,7 +642,6 @@ h5{
         font-size:15px;
     }
 
-    
     .projects{
         display:block;
         height: auto;
@@ -679,7 +676,6 @@ h5{
     }
     
 
-    
     .logos{
         width:100%;
         height: 100px;
@@ -828,4 +824,11 @@ h5{
         margin-top: 5px;
         animation: reverseLogo 5s linear infinite
     }
+
+    .nameText{
+        width: 200pt;
+    }
+
+
+
 }
