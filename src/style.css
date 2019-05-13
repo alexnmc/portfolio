@@ -195,7 +195,6 @@ body{
 }
     
     
-
 ul{
     margin: 100px;
     margin-top: 30px;
@@ -209,7 +208,6 @@ li{
     font-weight: 520;
     margin: auto;
 }
-
 
 
 .linkedin{
@@ -252,6 +250,7 @@ li{
 .git:hover{
     height: 37pt;
     width: 37pt;
+    
 }
 
 
@@ -273,6 +272,7 @@ li{
 .resume:hover{
     height: 37pt;
     width: 37pt;
+    
 }
 
 
@@ -477,15 +477,12 @@ h5{
     100% { transform: translate(1px, 1px) rotate(-1deg); }
 }
 
-
-
 .projects{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 
 .projects1{
     background-color:rgba(7, 7, 14, 0.959);
@@ -499,7 +496,6 @@ h5{
     padding-top:50pt;
 }
 
-
 .shell{
     width: 300px;
     height: 182px;
@@ -509,9 +505,9 @@ h5{
 
 .shell:hover{
     width: 310px;
-    height: 192px
+    height: 192px;
+    border-radius:1pt;
 }
-
 
 .imgWrap{
     width:310px;
@@ -558,7 +554,6 @@ h5{
     margin: 4%;
     display:block;
 }
-
 
 .exchangeText,
 .shellText{
