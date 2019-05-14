@@ -140,7 +140,7 @@ class Projects extends Component {
                 </a>
             </div>
 
-            <div className = 'excDiv'>
+            {/*<div className = 'excDiv'>
                 <a href = "https://www.valentinapan.com" >
                 <div className = 'imgWrap' onClick = {() => this.animation4()}>
                     { this.state.loading4 === 'off' ?
@@ -154,7 +154,7 @@ class Projects extends Component {
                 <a className = 'git1' href = " https://github.com/alexnmc/real-estate">
                     <div className = "git2"></div>
                 </a>
-            </div>
+                </div>*/}
             
             <div className = 'excDiv'>
                 <a href = "http://exrates.surge.sh">
