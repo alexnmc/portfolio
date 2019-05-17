@@ -8,7 +8,7 @@ const Home = props => {
         
             <div className = "home1"> 
                 <div className = 'nameText'>
-                    <p className = 'navbarP2'> Alexander U.Nemechek </p>
+                    <p className = 'navbarP2'> Alexander U. Nemechek </p>
                     <p className = 'developer'>full stack web developer</p>
                 </div>
             </div>

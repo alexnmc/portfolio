@@ -9,7 +9,6 @@ body{
    
 }
 
-
 .navbar {
     width: 100%;
     height: 0px;
@@ -17,7 +16,6 @@ body{
     justify-content: flex-end;
     position: fixed;
 }
-
 
 .link{
     font-size: 19px;
@@ -28,8 +26,6 @@ body{
     margin-top: 15px;
     color: rgb(255, 255, 255);
 }
-
-
 
 .link:hover {
     color: rgb(0, 238, 255)
@@ -307,24 +303,20 @@ li{
     font-size: 24px;
 }
 
-
 .contact1{
     display: block;
 }
  
-
 h1{
     margin-bottom: 40px;
 }
 
- 
-.work{
+ .work{
      text-align: center;
      margin-top: 5px;
      margin-bottom:15pt;
      font-size: 25px;
 }
-
 
 .welcomeP{
     font-size: 17pt;
@@ -366,14 +358,11 @@ h5{
     }
 }
 
-
 .logos {
     display: flex;
     width: 850px;
     margin:auto;
 }
-
-
 
 .ID {
     background-image: url( './Photos/portfolio.jpg')  ; 
