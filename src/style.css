@@ -20,7 +20,7 @@ body{
 
 
 .link{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 500;
     font-family: 'helvetica';
     text-decoration: none;
@@ -37,7 +37,7 @@ body{
 
 
 .navbarP2{
-        font-size: 15pt;
+        font-size: 16pt;
         font-family: 'helvetica';
         font-weight: 600;
         position: absolute;
@@ -69,7 +69,7 @@ body{
 .home1{
     height: 40vh;
     width: auto;
-    background-color:  rgba(32, 50, 83, 0.24);
+    background-color:  rgba(32, 50, 83, 0.089);
     border-top: 50px solid rgba(16, 16, 31, 0.774);
     display:flex;
     align-items:center;
@@ -146,7 +146,7 @@ body{
 
 
 .home4{  
-    background-color: rgba(32, 50, 83, 0.24);
+    background-color: rgba(32, 50, 83, 0.089);
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -157,7 +157,7 @@ body{
 .home5{
      height:300px;
      width: 100%;
-     background-color: rgba(67, 87, 105, 0.301);
+     background-color:  rgba(32, 50, 83, 0.089);
  }
 
 
@@ -250,7 +250,6 @@ li{
 .git:hover{
     height: 37pt;
     width: 37pt;
-    
 }
 
 
@@ -268,13 +267,11 @@ li{
     transition: 0.3s
 }
 
-
 .resume:hover{
     height: 37pt;
     width: 37pt;
     
 }
-
 
 .fixed{
     height: 16vh;
@@ -283,7 +280,6 @@ li{
     align-items: center;
     justify-content: center;
 }
-
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
@@ -317,7 +313,6 @@ li{
 }
  
 
-
 h1{
     margin-bottom: 40px;
 }
@@ -332,7 +327,7 @@ h1{
 
 
 .welcomeP{
-    font-size: 16pt;
+    font-size: 17pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -350,8 +345,6 @@ h5{
     box-sizing: border-box;
     margin-top: 5px;
 }
-
-
 
 .react1 {
     background-image: url( './Photos/react.png')  ; 
