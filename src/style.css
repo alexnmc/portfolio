@@ -274,7 +274,7 @@ li{
 }
 
 .fixed{
-    height: 16vh;
+    height: 90pt;
     width: 110px;
     display: flex;
     align-items: center;
