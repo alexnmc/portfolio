@@ -67,7 +67,7 @@ class Projects extends Component {
    
  render(){ 
     return (
-        <div className="block" id = '3'>
+    <div className="block" id = '3'>
         <div className = "projects1">
             
             <p className = "work">Projects:</p>
@@ -123,6 +123,24 @@ class Projects extends Component {
                     </a>
             </div>
 
+            
+            <div className = 'excDiv'>
+                <a href = "http://exrates.surge.sh">
+                <div className = 'imgWrap' onClick = {() => this.animation5()}>
+                    { this.state.loading5 === 'off' ?
+                        <img className ="shell" alt = '' src = {exchange}/>
+                        :
+                        <Loading/>
+                    }
+                    </div>
+                </a>
+                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, having Euro as base currency. The app gets the data from the Fixer API using Axios.</p>
+                <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
+                    <div className = "git2"></div>
+                </a>
+            </div>
+            
+            
             <div className = ' shellDiv'>
                 <a href= "https://shell-game.herokuapp.com/body">
                 <div className = 'imgWrap' onClick = {() => this.animation3()}>
@@ -156,28 +174,12 @@ class Projects extends Component {
                 </a>
                 </div>*/}
             
-            <div className = 'excDiv'>
-                <a href = "http://exrates.surge.sh">
-                <div className = 'imgWrap' onClick = {() => this.animation5()}>
-                    { this.state.loading5 === 'off' ?
-                        <img className ="shell" alt = '' src = {exchange}/>
-                        :
-                        <Loading/>
-                    }
-                    </div>
-                </a>
-                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, having Euro as base currency. The app gets the data from the Fixer API using Axios.</p>
-                <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
-                    <div className = "git2"></div>
-                </a>
+            
             </div>
-        </div>
        
         </div>
         <div className = 'home5'></div>
-        
-           
-        </div>
+    </div>
     )
 }
 }
