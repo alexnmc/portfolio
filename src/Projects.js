@@ -116,8 +116,8 @@ class Projects extends Component {
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'> Rental booking platform, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
-                     endpoints for both routing and for post/put/delete CRUD functionality.</p>
+                    <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
+                     endpoints for both routing and for post/put/delete CRUD functionality for saving bookings and displaying available booking times and jet-skis.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                         <div className = "git2"></div>
                     </a>
