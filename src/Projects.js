@@ -26,46 +26,72 @@ class Projects extends Component {
     
     animation = () =>{
         this.setState({
-            loading: 'on'
+            loading: 'on',
+            loading1: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading5: 'off'
         })
     }
     
     animation1 = () =>{
         this.setState({
-            loading1: 'on'
+            loading1: 'on',
+            loading: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading5: 'off'
         })
     }
     
     animation2 = () =>{
         this.setState({
-            loading2: 'on'
+            loading2: 'on',
+            loading1: 'off',
+            loading: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading5: 'off'
         })
     }
     
     animation3 = () =>{
         this.setState({
-            loading3: 'on'
+            loading3: 'on',
+            loading1: 'off',
+            loading2: 'off',
+            loading: 'off',
+            loading4: 'off',
+            loading5: 'off'
         })
     }
     
     animation4 = () =>{
         this.setState({
-            loading4: 'on'
+            loading4: 'on',
+            loading1: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading: 'off',
+            loading5: 'off'
         })
     }
     
     animation5 = () =>{
         this.setState({
-            loading5: 'on'
+            loading5: 'on',
+            loading1: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading: 'off'
         })
     }
     
    
-   
-   
-   
-   
- render(){ 
+render(){ 
     return (
     <div className="block" id = '3'>
         <div className = "projects1">
