@@ -4,9 +4,12 @@
 }
 
 body{
-    background: url('./Photos/miami.jpg') no-repeat fixed 0%  0%;
+    background: url('./Photos/miami.jpg') no-repeat fixed ;
     background-size: cover;
-   
+}
+
+body::-webkit-scrollbar{
+   position: hidden;
 }
 
 .navbar {
