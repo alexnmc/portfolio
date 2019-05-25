@@ -805,9 +805,11 @@ h5{
          height: auto;
      }
 
-     body{
+     
+    body{
         background: url('./Photos/miami.jpg') no-repeat fixed ;
-        background-size: cover;
+        background-size: 100% 100%;
+        
     }
     
     body::-webkit-scrollbar{
