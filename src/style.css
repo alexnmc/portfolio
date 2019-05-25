@@ -807,10 +807,8 @@ h5{
 
      
     body{
-        background: url('./Photos/miami.jpg') no-repeat fixed ;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background: url('./Photos/miami.jpg') no-repeat  ;
+        background-position:relative;
         background-size: cover;
         
     }
