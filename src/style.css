@@ -546,18 +546,6 @@ h5{
 
 @media only screen and (max-width: 770px) {
 
-    body{
-       /* background-size: 26pc 13cm;
-        background-repeat: repeat;*/
-        background-image: none;
-    }
-    
-    .home1,
-    .home4,
-    .home5{
-        background-color: rgba(255, 255, 255, 0.975);
-    }
-    
     
     .inline{
         margin:0px;
@@ -576,7 +564,7 @@ h5{
     }
     
     .nameText{
-        margin-top:4pt;
+        margin-top:15pt;
         position:relative;
     }
     
