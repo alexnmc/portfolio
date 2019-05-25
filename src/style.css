@@ -806,7 +806,7 @@ h5{
      }
 
      
-     html::before {
+     body::before {
         content: ' ';
         display: block;
         background-image: url('./Photos/miami.jpg');
