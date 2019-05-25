@@ -806,14 +806,26 @@ h5{
      }
 
      
-    body{
-        background: url('./Photos/miami.jpg') no-repeat  ;
-        background-position:relative;
+     html::before {
+        content: ' ';
+        display: block;
+        background-image: url('./Photos/miami.jpg');
+        background-position: center;
         background-size: cover;
-        
-    }
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: -10; 
+      }
+      
     
-    body::-webkit-scrollbar{
+    
+    
+      body::-webkit-scrollbar{
        position: hidden;
     }
 
