@@ -10,7 +10,7 @@ body{
 }
 
 body::-webkit-scrollbar{
-   position: hidden;
+   display: none;
 }
 
 .navbar {
