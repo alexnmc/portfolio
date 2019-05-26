@@ -70,7 +70,7 @@ body::-webkit-scrollbar{
     height: 40vh;
     width: auto;
     background-color:  rgba(255, 255, 255, 0.356);
-    border-top: 50px solid rgba(16, 16, 31, 0.76);
+    border-top: 50px solid rgba(21, 21, 59, 0.678);
     display:flex;
     align-items:center;
     justify-content:flex-end;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar{
 
 
 .home2{ 
-    background-color: rgba(27, 27, 51, 0.925);
+    background-color: rgba(24, 24, 48, 0.938);
     position: relative;
     padding: 7px;
     box-sizing: border-box;
