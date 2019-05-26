@@ -68,7 +68,7 @@ body::-webkit-scrollbar{
 
 
 .home1{
-    height: 40vh;
+    height: 43vh;
     width: auto;
     background-color:  rgba(255, 255, 255, 0.356);
     border-top: 50px solid rgba(21, 21, 59, 0.678);
@@ -138,7 +138,7 @@ body::-webkit-scrollbar{
 
 
 .home3 {
-    background-color:rgba(7, 7, 14, 0.959);
+    background-color:rgba(14, 14, 27, 0.959);
     height: 850px;
     padding: 50px;
     border-bottom: 1px solid rgba(0, 204, 255, 20);
@@ -297,7 +297,7 @@ li{
 
 
 .contact{
-    background-color:rgba(7, 7, 14, 0.959);
+    background-color:rgba(14, 14, 27, 0.959);
     height: 57vh;
     display:flex;
     align-items: center;
@@ -470,7 +470,7 @@ h5{
 }
 
 .projects1{
-    background-color:rgba(7, 7, 14, 0.959);
+    background-color:rgba(14, 14, 27, 0.959);
     border-bottom: 1px solid rgb(0, 204, 255,20);
     border-top: 1px solid rgb(0, 204, 255,20);
     font-family: 'helvetica';
