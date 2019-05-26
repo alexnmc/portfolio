@@ -825,7 +825,7 @@ h5{
       }
       
     body::-webkit-scrollbar{
-       position: hidden;
+       display: none;
     }
 
 }
