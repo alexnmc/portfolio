@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url('./Photos/miami.jpg') no-repeat fixed ;
+    background: url('./Photos/miami.rendition') no-repeat fixed ;
     background-size: cover;
     
 }
@@ -22,7 +22,7 @@ body::-webkit-scrollbar{
 }
 
 .link{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'helvetica';
     text-decoration: none;
@@ -37,30 +37,31 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 16pt;
+        font-size: 15pt;
         font-family: 'helvetica';
         font-weight: 600;
         position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
-        color: rgba(12, 17, 51, 0.932);
+        color: rgba(30, 38, 90, 0.945);
 }
     
 .developer{
-        color:rgba(25, 36, 73, 0.932);
-        font-size: 12pt;
+        color:rgba(30, 38, 90, 0.877);
+        font-size: 11.5pt;
         font-family: 'helvetica';
         font-weight: 600;
         animation: fade 2s;
         margin-top: 30pt;
+       
 }
 
 .nameText{
     height:40pt;
-    width: 350pt;
+    width: 90vw;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position:relative;
     margin:auto;
     margin-top:6vh;
@@ -68,10 +69,10 @@ body::-webkit-scrollbar{
 
 
 .home1{
-    height: 41vh;
+    height: 40vh;
     width: auto;
-    background-color:  rgba(255, 255, 255, 0.356);
-    border-top: 50px solid rgba(21, 21, 59, 0.678);
+    background-color:  rgba(255, 255, 255, 0.123);
+    border-top: 50px solid rgba(21, 21, 59, 0.767);
     display:flex;
     align-items:center;
     justify-content:flex-end;
@@ -147,7 +148,7 @@ body::-webkit-scrollbar{
 
 
 .home4{  
-    background-color:rgba(255, 255, 255, 0.356);
+    background-color:rgba(255, 255, 255, 0.123);
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -324,7 +325,7 @@ h1{
 }
 
 .welcomeP{
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -335,7 +336,7 @@ h1{
 
 h5{
     color: rgba(233, 233, 233, 0.678);
-    font-size: 12pt;
+    font-size: 10pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -347,8 +348,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 35pt;
-    width: 35pt;
+    height: 30pt;
+    width: 30pt;
     margin:auto;
     animation: reverseLogo 5s linear infinite
 }
