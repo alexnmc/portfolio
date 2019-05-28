@@ -37,59 +37,43 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 15pt;
+        font-size: 16pt;
         font-family: 'helvetica';
         font-weight: 600;
-        position: absolute;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
         color: rgba(255, 255, 255, 0.938);
-        margin:auto;
-}
+        text-align:center;
+        margin:10pt;
+    }
     
-.developer{
-        color:rgba(255, 255, 255, 0.918);
-        font-size: 11.5pt;
-        font-family: 'helvetica';
-        font-weight: 600;
-        animation: fade 2s;
-        margin:auto;
-        margin-top: 30pt;
-       
-}
-
 .nameText{
     height:40pt;
-    width: 90vw;
     display:flex;
     align-items: center;
     justify-content:center;
     position:relative;
-    margin:auto;
-    margin-top:6vh;
-    margin-left:75vw;
 }
 
 
 .home1{
-    height: 40vh;
-    width: auto;
-    background-color: rgba(255, 255, 255, 0.109); 
-    border-top: 50px solid rgba(23, 23, 54, 0.87);
+    height: 100vh;
+    width:100vw;
+    background-color: rgba(23, 23, 54, 0.767); 
     display:flex;
-    align-items:center;
-    justify-content:flex-end;
+    justify-content:center;
 }
 
 
 .home2{ 
-    background-color: rgba(23, 23, 54, 0.767);
-    position: relative;
-    padding:11px;
+   
+    padding:10px;
     box-sizing: border-box;
-    border-top: 2px solid  rgba(0, 12, 37, 0.918);
-    border-bottom: 2px solid  rgba(0, 12, 37, 0.918);
     animation: fade 3s;
+    position:absolute;
+    width:100vw;
+    margin-top:200pt;
+    
 }  
 
 
@@ -142,7 +126,7 @@ body::-webkit-scrollbar{
 
 
 .home3 {
-    background-color:rgba(14, 14, 27, 0.959);
+    background-color:rgba(12, 12, 27, 0.938);
     height: 850px;
     padding: 50px;
     border-bottom: 1px solid rgba(0, 204, 255, 20);
@@ -301,7 +285,7 @@ li{
 
 
 .contact{
-    background-color:rgba(14, 14, 27, 0.959);
+    background-color:rgba(12, 12, 27, 0.938);
     height: 100vh;
     display:flex;
     align-items: flex-start;
@@ -330,7 +314,7 @@ h1{
 }
 
 .welcomeP{
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -341,7 +325,7 @@ h1{
 
 h5{
     color: rgba(233, 233, 233, 0.678);
-    font-size: 11pt;
+    font-size: 12pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -353,9 +337,10 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 33pt;
-    width: 33pt;
+    height: 35pt;
+    width: 35pt;
     margin:auto;
+    margin-top:10pt;
     animation: reverseLogo 5s linear infinite
 }
 
@@ -476,7 +461,7 @@ h5{
 }
 
 .projects1{
-    background-color:rgba(14, 14, 27, 0.959);
+    background-color:rgba(12, 12, 27, 0.938);
     border-bottom: 1px solid rgb(0, 204, 255,20);
     border-top: 1px solid rgb(0, 204, 255,20);
     font-family: 'helvetica';
@@ -589,10 +574,6 @@ input{
 
 @media only screen and (max-width: 770px) {
 
-    .navbarP2,
-    .developer{
-        color:rgb(0, 11, 31)
-    }
     
     .inline{
         margin:0px;
@@ -606,33 +587,8 @@ input{
         justify-content: center;
     }
 
-    .navbarP2{
-       font-size:14pt;
-    }
     
-    .nameText{
-        margin-top:15pt;
-        position:relative;
-    }
-    
-    .welcomeP{
-        font-size: 12pt;
-    }
-
-    
-    h5{
-        font-size: 11pt;
-    }
-    
-    .home1{
-        border-top: 50px solid rgba(23, 27, 39, 0.897); 
-        height: 45vh;
-    }
-
-    .home2{
-       height: auto;
-    }
-
+   
     .home5{
         height: 45vh;
     }
@@ -683,7 +639,7 @@ input{
     }
     
     
-    .home1,
+   
     .about,
     .home3{
        display: flex;
