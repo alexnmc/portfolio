@@ -72,7 +72,7 @@ body::-webkit-scrollbar{
     animation: fade 3s;
     position:absolute;
     width:100vw;
-    margin-top:200pt;
+    margin-top:30vh;
     
 }  
 
@@ -845,5 +845,10 @@ input{
     .contact1{
         height:70vh;
     }
-
+    
+    
+    .welcomeP,
+    .navbarP2{
+        font-size:13pt;
+    }
 }
