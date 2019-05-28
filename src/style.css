@@ -553,8 +553,8 @@ h5{
 .contactForm{
     display: flex;
     flex-direction: column;
-    width:350pt;
-    height:250pt;
+    width:35vw;
+    height:40vh;
     margin:auto;
     border: 3px solid rgba(255, 255, 255, 0.658);
     padding:10pt;
@@ -872,5 +872,21 @@ input{
     body::-webkit-scrollbar{
        display: none;
     }
+
+    .contactForm{
+        display: flex;
+        flex-direction: column;
+        width:90vw;
+        height:40vh;
+        margin:auto;
+        border: 3px solid rgba(255, 255, 255, 0.658);
+        padding:10pt;
+        border-radius: 5px;
+    }
+
+    h1{
+        margin-top:10vh
+    }
+    
 
 }
