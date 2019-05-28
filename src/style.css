@@ -83,12 +83,12 @@ body::-webkit-scrollbar{
 
 
 .home2{ 
-    background-color: rgba(23, 23, 54, 0.877);
+    background-color: rgba(23, 23, 54, 0.753);
     position: relative;
-    padding:10px;
+    padding:11px;
     box-sizing: border-box;
-    border-top: 1px solid  rgba(0, 238, 255, 0.548);
-    border-bottom: 1px solid  rgba(0, 238, 255, 0.548);
+    border-top: 2px solid  rgba(0, 18, 58, 0.918);
+    border-bottom: 2px solid  rgba(0, 18, 58, 0.918);
     animation: fade 3s;
 }  
 
