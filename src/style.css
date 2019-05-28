@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url('./Photos/miami.rendition') no-repeat fixed ;
+    background: url('./Photos/1.jpeg') no-repeat fixed ;
     background-size: cover;
     
 }
@@ -71,7 +71,7 @@ body::-webkit-scrollbar{
 .home1{
     height: 40vh;
     width: auto;
-    background-color: rgba(255, 255, 255, 0.281); 
+    background-color: rgba(255, 255, 255, 0); 
     border-top: 50px solid rgba(21, 21, 59, 0.767);
     display:flex;
     align-items:center;
@@ -148,7 +148,7 @@ body::-webkit-scrollbar{
 
 
 .home4{  
-    background-color:rgba(206, 206, 206, 0.281);
+    background-color:rgba(206, 206, 206, 0);
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ body::-webkit-scrollbar{
 .home5{
      height:300px;
      width: 100%;
-     background-color:  rgba(255, 255, 255, 0.356);
+     background-color:  rgba(255, 255, 255, 0);
  }
 
 
@@ -812,7 +812,7 @@ h5{
      body::before {
         content: ' ';
         display: block;
-        background-image: url('./Photos/miami.jpg');
+        background-image: url('./Photos/1.jpg');
         background-position: center;
         background-size: cover;
         height: 100vh;
