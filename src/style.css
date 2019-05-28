@@ -72,7 +72,7 @@ body::-webkit-scrollbar{
     height: 40vh;
     width: auto;
     background-color: rgba(255, 255, 255, 0); 
-    border-top: 50px solid rgba(21, 21, 59, 0.767);
+    border-top: 50px solid rgba(23, 23, 54, 0.87);
     display:flex;
     align-items:center;
     justify-content:flex-end;
