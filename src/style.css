@@ -301,14 +301,14 @@ li{
 
 .contact{
     background-color:rgba(14, 14, 27, 0.959);
-    height: 57vh;
+    height: 100vh;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     border-top: 1px solid rgb(0, 204, 255,20);
-    font-family: 'verdana';
+    font-family: 'tahoma';
     color:rgb(223, 223, 223);
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .contact1{
@@ -317,6 +317,7 @@ li{
  
 h1{
     margin-bottom: 40px;
+    margin-top:150px;
 }
 
  .work{
@@ -549,10 +550,51 @@ h5{
    margin-bottom:10pt;
 }
 
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width:350pt;
+    height:250pt;
+    margin:auto;
+    border: 3px solid rgba(255, 255, 255, 0.658);
+    padding:10pt;
+    border-radius: 5px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    cursor: pointer;
+    margin-top:10pt;
+    font-size:12pt;
+}
+
+a:hover{
+   color: rgb(0, 238, 255)
+}
+
+textarea{
+    height:400pt;
+    margin-top: 10pt;
+    font-size:12pt;
+}
+
+input{
+    height:50pt;
+    font-size:14pt;
+}
+
 
 
 @media only screen and (max-width: 770px) {
 
+    .navbarP2,
+    .developer{
+        color:rgb(0, 11, 31)
+    }
+    
+    
+    
     
     .inline{
         margin:0px;
