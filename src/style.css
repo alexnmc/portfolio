@@ -74,7 +74,7 @@ body::-webkit-scrollbar{
 .home1{
     height: 40vh;
     width: auto;
-    background-color: rgba(255, 255, 255, 0); 
+    background-color: rgba(255, 255, 255, 0.109); 
     border-top: 50px solid rgba(23, 23, 54, 0.87);
     display:flex;
     align-items:center;
@@ -83,12 +83,12 @@ body::-webkit-scrollbar{
 
 
 .home2{ 
-    background-color: rgba(23, 23, 54, 0.753);
+    background-color: rgba(23, 23, 54, 0.767);
     position: relative;
     padding:11px;
     box-sizing: border-box;
-    border-top: 2px solid  rgba(0, 18, 58, 0.918);
-    border-bottom: 2px solid  rgba(0, 18, 58, 0.918);
+    border-top: 2px solid  rgba(0, 12, 37, 0.918);
+    border-bottom: 2px solid  rgba(0, 12, 37, 0.918);
     animation: fade 3s;
 }  
 
@@ -151,7 +151,7 @@ body::-webkit-scrollbar{
 
 
 .home4{  
-    background-color:rgba(206, 206, 206, 0);
+    background-color:rgba(255, 255, 255, 0.109);
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@ body::-webkit-scrollbar{
 .home5{
      height:300px;
      width: 100%;
-     background-color:  rgba(255, 255, 255, 0);
+     background-color:  rgba(255, 255, 255, 0.109);
  }
 
 
