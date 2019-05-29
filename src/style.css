@@ -61,7 +61,7 @@ body::-webkit-scrollbar{
 .home1{
     height: 100vh;
     width:100vw;
-    background-color:rgba(11, 11, 27, 0.568);
+    background-color:rgba(9, 9, 19, 0.575);
     display:flex;
     justify-content:center;
 }
