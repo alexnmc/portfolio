@@ -9,7 +9,7 @@ const Home = props => {
             <div className = "home1"> 
             <div className = "home2">
                
-                <p className = 'navbarP2'> Alexander U. Nemechek </p>
+                <h1 className = 'navbarP2'> Alexander Nemechek </h1>
                 <p  className = 'welcomeP'>Welcome to my portfolio website</p>
                 <h5>this site was made with REACT</h5>
                 <div className = "react1"></div>

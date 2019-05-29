@@ -37,14 +37,16 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 19pt;
+        font-size: 16pt;
         font-family: 'helvetica';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 2s;
         color: rgba(255, 255, 255, 0.938);
-        text-align:center;
-        margin:15pt;
+        margin:2pt;
+        margin-top: 6vh;
+        text-align: center;
+       
     }
     
 .nameText{
@@ -129,8 +131,7 @@ body::-webkit-scrollbar{
     background-color:rgba(12, 12, 27, 0.842);
     height: 850px;
     padding: 50px;
-    border-bottom: 1px solid rgba(0, 204, 255, 20);
-    border-top: 1px solid rgba(0, 204, 255, 20);
+    
 }
 
 
@@ -205,10 +206,11 @@ li{
     width: 30pt;
     background-position: center;
     background-size: cover;
+    repeat:no-repeat;
     display: inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid rgba(0, 0, 0, 0.986);
     border-radius: 10px;
     position: relative;
     transition: 0.3s
@@ -230,35 +232,33 @@ li{
     display:inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 5px solid rgb(0, 0, 0);
     border-radius: 300px;
     transition: 0.3s
 }
 
 
 .git:hover{
-    height: 37pt;
-    width: 37pt;
+    height: 32.7pt;
+    width: 32.5pt;
 }
 
 
 .resume{
     background-image: url( './Photos/cv.png')  ; 
-    height: 28pt;
-    width: 28pt;
+    height: 27pt;
+    width: 25pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
     margin: 30px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 6px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    
     transition: 0.3s
 }
 
 .resume:hover{
-    height: 37pt;
-    width: 37pt;
+    height: 32pt;
+    width: 29pt;
     
 }
 
@@ -290,7 +290,6 @@ li{
     display:flex;
     align-items: flex-start;
     justify-content: center;
-    border-top: 1px solid rgb(0, 204, 255,20);
     font-family: 'tahoma';
     color:rgb(223, 223, 223);
     font-size: 17px;
@@ -337,8 +336,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 35pt;
-    width: 35pt;
+    height: 37pt;
+    width: 37pt;
     margin:auto;
     margin-top:10pt;
     animation: reverseLogo 5s linear infinite
@@ -364,9 +363,9 @@ h5{
     background-image: url( './Photos/portfolio.jpg')  ; 
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 105pt;
     width: 105pt;
-    border: 5px solid rgb(255, 255, 255);
     border-radius: 100px;
     margin:auto;
 }
@@ -462,8 +461,6 @@ h5{
 
 .projects1{
     background-color:rgba(12, 12, 27, 0.938);
-    border-bottom: 1px solid rgb(0, 204, 255,20);
-    border-top: 1px solid rgb(0, 204, 255,20);
     font-family: 'helvetica';
     color: white;
     display: block;
@@ -567,7 +564,7 @@ textarea{
 
 input{
     height:50pt;
-    font-size:14pt;
+    font-size:12pt;
 }
 
 
