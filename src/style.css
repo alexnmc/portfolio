@@ -201,58 +201,54 @@ li{
 
 
 .linkedin{
-    background-image: url( './Photos/linkedin.png')  ; 
-    height: 30pt;
-    width: 30pt;
+    background-image: url( './Photos/linkedin 3.png')  ; 
+    height: 21pt;
+    width: 22.5pt;
     background-position: center;
     background-size: cover;
     repeat:no-repeat;
     display: inline-block;
-    margin: 30px;
+    margin: 20px;
     transition: 0.5s ease-in-out 0.2s;
-    border: 10px solid rgba(0, 0, 0, 0.986);
-    border-radius: 10px;
     position: relative;
     transition: 0.3s
 }
 
 
 .linkedin:hover{
-    height: 37pt;
-    width: 37pt;
+    height: 30pt;
+    width: 31.5pt;
 }
 
 
 .git{
-    background-image: url( './Photos/git.png')  ; 
-    height: 29.7pt;
-    width: 29.5pt;
+    background-image: url( './Photos/git3.png')  ; 
+    height: 26pt;
+    width: 26pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
-    margin: 30px;
+    margin: 20px;
     transition: 0.5s ease-in-out 0.2s;
-    border-radius: 300px;
     transition: 0.3s
 }
 
 
 .git:hover{
-    height: 32.7pt;
-    width: 32.5pt;
+    height: 35pt;
+    width: 35pt;
 }
 
 
 .resume{
-    background-image: url( './Photos/cv.png')  ; 
-    height: 27pt;
-    width: 25pt;
+    background-image: url( './Photos/resume2.png')  ; 
+    height: 23pt;
+    width: 21pt;
     background-position: center ;
     background-size: cover;
     display:inline-block;
-    margin: 30px;
+    margin: 20px;
     transition: 0.5s ease-in-out 0.2s;
-    
     transition: 0.3s
 }
 
@@ -368,6 +364,7 @@ h5{
     width: 105pt;
     border-radius: 100px;
     margin:auto;
+    border:1px solid rgba(255, 255, 255, 0.432);
 }
 
    
