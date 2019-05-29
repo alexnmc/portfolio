@@ -716,14 +716,19 @@ input{
         margin: 10px;
         margin-right: 30px;
         margin-left: 30px;
+        pointer-events: none;
       }
 
     
-    .git,
+    
     .resume,
     .linkedin{
-        height: 44px;
-        width:44px;
+        height: 25px;
+        width:27px;
+    }
+    .git{
+        height: 26px;
+        width:26px;
     }
    
     
@@ -821,7 +826,6 @@ input{
         width:90vw;
         height:40vh;
         margin:auto;
-        border: 3px solid rgba(255, 255, 255, 0.658);
         padding:10pt;
         border-radius: 5px;
     }
@@ -837,5 +841,9 @@ input{
     .welcomeP,
     .navbarP2{
         font-size:13pt;
+    }
+
+    .navbarP2{
+        margin-top: 3vh;
     }
 }
