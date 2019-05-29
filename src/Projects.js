@@ -95,11 +95,8 @@ render(){
     return (
     <div className="block" id = '3'>
         <div className = "projects1">
-            
             <p className = "work">Projects:</p>
-        
         <div className="projects">
-        
             <div className = 'excDiv'>
                     <a href = "https://www.news-foryou.com" >
                     <div className = 'imgWrap' onClick = {() => this.animation()}>
@@ -149,7 +146,6 @@ render(){
                     </a>
             </div>
 
-            
             <div className = 'excDiv'>
                 <a href = "http://exrates.surge.sh">
                 <div className = 'imgWrap' onClick = {() => this.animation5()}>
@@ -165,7 +161,6 @@ render(){
                     <div className = "git2"></div>
                 </a>
             </div>
-            
             
             <div className = ' shellDiv'>
                 <a href= "https://shell-game.herokuapp.com/body">
@@ -200,10 +195,8 @@ render(){
                 </a>
                 </div>*/}
             
-            
             </div>
-       
-        </div>
+       </div>
         <div className = 'home5'></div>
     </div>
     )
