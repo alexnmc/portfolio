@@ -127,7 +127,7 @@ body::-webkit-scrollbar{
 
 .home3 {
     background-color:rgba(12, 12, 27, 0.842);
-    height: 850px;
+    height: 100vh;
     padding: 50px;
     
 }
