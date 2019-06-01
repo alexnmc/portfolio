@@ -61,7 +61,7 @@ body::-webkit-scrollbar{
 .home1{
     height: 100vh;
     width:100vw;
-    background-color:rgba(0, 0, 0, 0.575);
+    background-color:rgba(15, 15, 15, 0.555);
     display:flex;
     justify-content:center;
 }
@@ -126,7 +126,7 @@ body::-webkit-scrollbar{
 
 
 .home3 {
-    background-color:rgba(12, 12, 27, 0.842);
+    background-color:rgba(10, 10, 19, 0.89);
     height: 100vh;
     padding: 50px;
     
@@ -269,7 +269,7 @@ li{
 
 
 .contact{
-    background-color:rgba(12, 12, 27, 0.938);
+    background-color:rgba(10, 10, 19, 0.89);
     height: 100vh;
     display:flex;
     align-items: flex-start;
@@ -445,7 +445,7 @@ h5{
 }
 
 .projects1{
-    background-color:rgba(12, 12, 27, 0.938);
+    background-color:rgba(10, 10, 19, 0.945);
     font-family: 'helvetica';
     color: white;
     display: block;
