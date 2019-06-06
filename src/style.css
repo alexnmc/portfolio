@@ -297,7 +297,7 @@ h1{
 }
 
 .welcomeP{
-    font-size: 14pt;
+    font-size: 14.5pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -307,7 +307,7 @@ h1{
 
 
 h5{
-    color: rgba(255, 255, 255, 0.678);
+    color: rgb(218, 218, 218);
     font-size: 12pt;
     font-family: 'helvetica';
     font-weight: 700;
@@ -320,10 +320,10 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 37pt;
-    width: 37pt;
+    height: 38pt;
+    width: 38pt;
     margin:auto;
-    margin-top:10pt;
+    margin-top:5pt;
     animation: reverseLogo 5s linear infinite
 }
 
