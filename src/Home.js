@@ -7,7 +7,7 @@ const Home = props => {
         <div className="home"  id = '1'>
             <div className = "home1"> 
                 <div className = "home2">
-                    <h1 className = 'navbarP2'>Alexander Nemechek - full stack web developer </h1>
+                    <h1 className = 'navbarP2'>Alexander Nemechek - <span className = 'fullstack'>full stack web developer</span> </h1>
                     <p  className = 'welcomeP'>Welcome to my portfolio website</p>
                     <h5>this site was made with REACT</h5>
                     <div className = "react1"></div>

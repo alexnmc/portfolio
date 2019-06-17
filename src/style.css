@@ -38,7 +38,7 @@ body::-webkit-scrollbar{
 
 .navbarP2{
         font-size: 16pt;
-        font-family: 'helvetica';
+        font-family: 'arial';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 3s;
@@ -46,8 +46,12 @@ body::-webkit-scrollbar{
         margin:2pt;
         margin-top: 6vh;
         text-align: center;
-       
-    }
+}
+
+.fullstack{
+    font-size: 14pt;
+   
+}
     
 .nameText{
     height:40pt;
@@ -297,19 +301,19 @@ h1{
 }
 
 .welcomeP{
-    font-size: 14.5pt;
+    font-size: 15pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
     width:auto;
-    color: rgb(255, 255, 255);
+    color: rgba(0, 14, 78, 0.753);
 }
 
 
 h5{
-    color: rgba(0, 14, 78, 0.753);
-    font-size: 12pt;
-    font-family: 'helvetica';
+    color: rgb(233, 233, 233);
+    font-size: 12.5pt;
+    font-family: 'arial';
     font-weight: 700;
     text-align: center;
     box-sizing: border-box;
@@ -320,8 +324,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 38pt;
-    width: 38pt;
+    height: 39pt;
+    width: 39pt;
     margin:auto;
     margin-top:5pt;
     animation: reverseLogo 5s linear infinite
@@ -462,8 +466,8 @@ h5{
 }
 
 .shell:hover{
-    width: 310px;
-    height: 192px;
+    width: 290px;
+    height: 172px;
     border-radius:1pt;
 }
 
