@@ -145,7 +145,23 @@ render(){
                         <div className = "git2"></div>
                     </a>
             </div>
-
+            
+            <div className = 'excDiv'>
+                <a href = "https://write-some.herokuapp.com/" >
+                <div className = 'imgWrap' onClick = {() => this.animation4()}>
+                    { this.state.loading4 === 'off' ?
+                        <img className ="shell" alt = '' src = {write}/>
+                        :
+                        <Loading/>
+                    }
+                </div>
+                </a>
+                <p className = 'exchangeText'>A full-stack journal with user registration and authentication and complete CRUD functionality for saving, deleating or editing entries. </p>
+                <a className = 'git1' href = " https://github.com/alexnmc/write-something">
+                    <div className = "git2"></div>
+                </a>
+            </div>
+            
             <div className = 'excDiv'>
                 <a href = "http://exrates.surge.sh">
                 <div className = 'imgWrap' onClick = {() => this.animation5()}>
@@ -178,24 +194,7 @@ render(){
                     <div className = "git2"></div>
                 </a>
             </div>
-
-            <div className = 'excDiv'>
-                <a href = "https://write-some.herokuapp.com/" >
-                <div className = 'imgWrap' onClick = {() => this.animation4()}>
-                    { this.state.loading4 === 'off' ?
-                        <img className ="shell" alt = '' src = {write}/>
-                        :
-                        <Loading/>
-                    }
-                </div>
-                </a>
-                <p className = 'exchangeText'>A full-stack journal with user registration and authentication and complete CRUD functionality for saving, deleating or editing entries. </p>
-                <a className = 'git1' href = " https://github.com/alexnmc/write-something">
-                    <div className = "git2"></div>
-                </a>
-                </div>
-            
-            </div>
+        </div>
        </div>
         <div className = 'home5'></div>
     </div>
