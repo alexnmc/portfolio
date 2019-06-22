@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import exchange from  './Photos/exchange.png'
 import shell from  './Photos/shellgame.png'
 import group from './Photos/group.png'
-// eslint-disable-next-line import realestate from './Photos/realestate.png'
+import write from './Photos/write.png'
 import news from './Photos/news.png'
 import newPic from './Photos/news2.png'
 import Loading from './Loading'
@@ -179,21 +179,21 @@ render(){
                 </a>
             </div>
 
-            {/*<div className = 'excDiv'>
-                <a href = "https://www.valentinapan.com" >
+            <div className = 'excDiv'>
+                <a href = "https://write-some.herokuapp.com/" >
                 <div className = 'imgWrap' onClick = {() => this.animation4()}>
                     { this.state.loading4 === 'off' ?
-                        <img className ="shell" alt = '' src = {realestate}/>
+                        <img className ="shell" alt = '' src = {write}/>
                         :
                         <Loading/>
                     }
                 </div>
                 </a>
-                <p className = 'exchangeText'>Freelance project:  real-estate agent website made with React.</p>
-                <a className = 'git1' href = " https://github.com/alexnmc/real-estate">
+                <p className = 'exchangeText'>A full-stack journal with user registration and authentication and complete CRUD functionality for saving, deleating or editing entries. </p>
+                <a className = 'git1' href = " https://github.com/alexnmc/write-something">
                     <div className = "git2"></div>
                 </a>
-                </div>*/}
+                </div>
             
             </div>
        </div>
