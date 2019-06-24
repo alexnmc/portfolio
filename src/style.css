@@ -37,7 +37,7 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 16pt;
+        font-size: 17pt;
         font-family: 'arial';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
@@ -260,14 +260,14 @@ li{
 
 .git2{
     background-image: url( './Photos/git.png')  ; 
-    height: 30pt;
-    width: 30pt;
+    height: 27pt;
+    width: 27pt;
     background-position: center ;
     background-size: cover;
     display:flex;
     margin: auto;
     transition: 0.5s ease-in-out 0.2s;
-    border: 5px solid black;
+    border: 1px solid black;
     border-radius: 300px;
 }
 
@@ -301,7 +301,7 @@ h1{
 }
 
 .welcomeP{
-    font-size: 15pt;
+    font-size: 18pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -324,10 +324,9 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 39pt;
-    width: 39pt;
+    height: 40pt;
+    width: 40pt;
     margin:auto;
-    margin-top:5pt;
     animation: reverseLogo 5s linear infinite
 }
 
@@ -782,8 +781,8 @@ input{
         background-image: url( './Photos/react.png')  ; 
         background-position: center;
         background-size: cover;
-        height: 35px;
-        width: 35px;
+        height: 36px;
+        width: 36px;
         margin:auto;
         margin-top: 5px;
         animation: reverseLogo 5s linear infinite
@@ -840,6 +839,10 @@ input{
     .welcomeP,
     .navbarP2{
         font-size:13pt;
+    }
+
+    .fullstack{
+        font-size: 12pt;
     }
 
     .navbarP2{

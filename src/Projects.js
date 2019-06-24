@@ -140,7 +140,7 @@ render(){
                     </div>
                     </a>
                     <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
-                     endpoints for both routing and for post/put/delete CRUD functionality to save bookings and display available booking times and jet-skis.</p>
+                     endpoints for both routing and for post/get/put/delete CRUD functionality to save bookings and display available booking times and jet-skis.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                         <div className = "git2"></div>
                     </a>
@@ -156,7 +156,7 @@ render(){
                     }
                 </div>
                 </a>
-                <p className = 'exchangeText'>A full-stack journal with user registration and authentication and complete CRUD functionality for saving, deleating or editing entries. </p>
+                <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication and complete CRUD functionality for saving, deleting or editing entries. </p>
                 <a className = 'git1' href = " https://github.com/alexnmc/write-something">
                     <div className = "git2"></div>
                 </a>
