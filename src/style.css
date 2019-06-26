@@ -296,7 +296,7 @@ h1{
  .work{
      text-align: center;
      margin-top: 5px;
-     margin-bottom:15pt;
+     margin-bottom:5pt;
      font-size: 25px;
 }
 
@@ -454,7 +454,7 @@ h5{
     display: block;
     height: auto;
     padding:20px;
-    padding-top:50pt;
+  
 }
 
 .shell{
