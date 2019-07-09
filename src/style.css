@@ -311,7 +311,7 @@ h1{
 
 h5{
     color: rgb(233, 233, 233);
-    font-size: 12.5pt;
+    font-size: 12pt;
     font-family: 'arial';
     font-weight: 700;
     text-align: center;
@@ -323,8 +323,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 40pt;
-    width: 40pt;
+    height: 44pt;
+    width: 44pt;
     margin:auto;
     animation: reverseLogo 5s linear infinite
 }
@@ -571,8 +571,6 @@ input{
         justify-content: center;
     }
 
-    
-   
     .home5{
         height: 45vh;
     }
@@ -622,8 +620,6 @@ input{
         margin-bottom: 20px;
     }
     
-    
-   
     .about,
     .home3{
        display: flex;
@@ -632,7 +628,6 @@ input{
        align-items: center;
     }
     
-
     .logos{
         width:100%;
         height: 100px;
@@ -642,7 +637,6 @@ input{
         justify-content: center;
     }
 
-    
     .react{
         height: 40px;
         width: 40px;
@@ -658,21 +652,18 @@ input{
         margin: auto;
     }
 
-    
     .javascript{
         height: 72px;
         width: 60px;
         margin: auto;
     }
 
-    
     .node{
         height: 45px;
         width:  72px;
         margin: auto;
     }
 
-    
     .git2,
     .mongo{
         height: 32px;
@@ -680,13 +671,11 @@ input{
         margin: auto;
     }
 
-
     .provide{
         width:auto;
         height:auto;
         display:flex;
     }
-
 
     ul{   
         margin: 10%;
@@ -701,7 +690,6 @@ input{
         margin: 10px;
     }
 
-    
     .contact1{
         font-size: 17px;
         padding: 10px;
@@ -714,15 +702,14 @@ input{
         margin-right: 30px;
         margin-left: 30px;
         pointer-events: none;
-      }
+    }
 
-    
-    
     .resume,
     .linkedin{
         height: 25px;
         width:27px;
     }
+    
     .git{
         height: 26px;
         width:26px;
@@ -780,8 +767,8 @@ input{
         background-image: url( './Photos/react.png')  ; 
         background-position: center;
         background-size: cover;
-        height: 36px;
-        width: 36px;
+        height: 39px;
+        width: 39px;
         margin:auto;
         margin-top: 5px;
         animation: reverseLogo 5s linear infinite
@@ -835,13 +822,20 @@ input{
     }
     
     
-    .welcomeP,
+    .welcomeP{
+        font-size:14pt;
+    }
+
+    h5{
+        font-size:11pt;
+    }
+    
     .navbarP2{
         font-size:13pt;
     }
 
     .fullstack{
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .navbarP2{
