@@ -50,7 +50,6 @@ body::-webkit-scrollbar{
 
 .fullstack{
     font-size: 14pt;
-   
 }
     
 .nameText{
@@ -306,6 +305,7 @@ h1{
     text-align: center;
     width:auto;
     color: rgba(0, 14, 78, 0.753);
+    
 }
 
 
@@ -378,6 +378,7 @@ h5{
     margin:auto;
     animation: fade 2s, shake 16s  infinite;
 }
+
 
 
 .html {

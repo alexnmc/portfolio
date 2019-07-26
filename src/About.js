@@ -52,7 +52,7 @@ const About = () => {
 
                 <div className = "provide"> 
                     <ul>
-                        <li>JavaScript (vanilla, React)</li>
+                        <li>JavaScript (vanilla, React, React Native)</li>
                         <li>Responsive HTML/CSS</li>
                         <li>High-level user experience</li>
                         <li>Best practices</li>
