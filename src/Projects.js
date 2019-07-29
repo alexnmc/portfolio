@@ -4,6 +4,7 @@ import shell from  './Photos/shellgame.png'
 import group from './Photos/group.png'
 import write from './Photos/write.png'
 import pharma from './Photos/pharma.png'
+import news from './Photos/news.png'
 import newPic from './Photos/news2.png'
 import Loading from './Loading'
 
@@ -102,7 +103,7 @@ render(){
                     <a href = "https://farmacie-app.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation()}>
                         { this.state.loading === 'off' ?
-                            <img className ="shell" alt = '' src = {news}/>
+                            <img className ="shell" alt = '' src = {pharma}/>
                             :
                             <Loading/>
                         }
