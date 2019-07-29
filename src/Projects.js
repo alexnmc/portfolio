@@ -121,7 +121,9 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'> The pharmacy-app helps users find the medication they are looking for by connecting them to all the pharmacies in the area.</p>
+                    <p className = 'exchangeText'> Using the HTML5 geolocation API the pharmacy-app helps users find the medication they are looking for by connecting them to all the pharmacies in the area.It has user registration and
+                     authentication using JWT and Bcrypt and custom RESTful API built in Node.js and Express providing endpoints for both routing and for get/post/delete CRUD functionality.
+                    </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
                         <div className = "git2"></div>
                     </a>
@@ -154,7 +156,7 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with user registration and authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
+                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with JWT user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/news-for-you">
                         <div className = "git2"></div>
                     </a>
@@ -170,7 +172,7 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
+                    <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with JWT user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
                      endpoints for both routing and for post/get/put/delete CRUD functionality to save bookings and display available booking times and jet-skis.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                         <div className = "git2"></div>
@@ -187,7 +189,7 @@ render(){
                     }
                 </div>
                 </a>
-                <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication and complete CRUD functionality for saving, deleting or editing entries. </p>
+                <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication using JWT and Bcrypt and complete CRUD functionality for saving, deleting or editing entries. </p>
                 <a className = 'git1' href = " https://github.com/alexnmc/write-something">
                     <div className = "git2"></div>
                 </a>
