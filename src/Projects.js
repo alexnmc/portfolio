@@ -90,6 +90,18 @@ class Projects extends Component {
             loading: 'off'
         })
     }
+
+    animation6 = () =>{
+        this.setState({
+            loading6: 'on',
+            loading5: 'off',
+            loading1: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading: 'off'
+        })
+    }
     
    
 render(){ 
@@ -101,7 +113,7 @@ render(){
             
             <div className = 'excDiv'>
                     <a href = "https://farmacie-app.herokuapp.com/" >
-                    <div className = 'imgWrap' onClick = {() => this.animation()}>
+                    <div className = 'imgWrap' onClick = {() => this.animation6()}>
                         { this.state.loading === 'off' ?
                             <img className ="shell" alt = '' src = {pharma}/>
                             :
