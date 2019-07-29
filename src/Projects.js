@@ -3,7 +3,7 @@ import exchange from  './Photos/exchange.png'
 import shell from  './Photos/shellgame.png'
 import group from './Photos/group.png'
 import write from './Photos/write.png'
-import news from './Photos/news.png'
+import pharma from './Photos/pharma.png'
 import newPic from './Photos/news2.png'
 import Loading from './Loading'
 
@@ -97,6 +97,24 @@ render(){
         <div className = "projects1">
             <p className = "work">Projects:</p>
         <div className="projects">
+            
+            <div className = 'excDiv'>
+                    <a href = "https://farmacie-app.herokuapp.com/" >
+                    <div className = 'imgWrap' onClick = {() => this.animation()}>
+                        { this.state.loading === 'off' ?
+                            <img className ="shell" alt = '' src = {news}/>
+                            :
+                            <Loading/>
+                        }
+                    </div>
+                    </a>
+                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.</p>
+                    <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
+                        <div className = "git2"></div>
+                    </a>
+            </div>
+
+            
             <div className = 'excDiv'>
                     <a href = "https://www.news-foryou.com" >
                     <div className = 'imgWrap' onClick = {() => this.animation()}>
