@@ -140,7 +140,7 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.</p>
+                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.This project is also available as a React Native mobile app.</p>
                     <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
                         <div className = "git2"></div>
                     </a>
