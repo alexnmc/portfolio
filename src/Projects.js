@@ -108,7 +108,7 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.</p>
+                    <p className = 'exchangeText'> The pharmacy-app helps users find the medication they are looking for by connecting them to all the pharmacies in the area.</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
                         <div className = "git2"></div>
                     </a>
