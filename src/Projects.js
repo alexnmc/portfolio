@@ -20,7 +20,8 @@ class Projects extends Component {
            loading2: 'off',
            loading3: 'off',
            loading4: 'off',
-           loading5: 'off'
+           loading5: 'off',
+           loading6: 'off'
         }
     }
 
@@ -32,7 +33,8 @@ class Projects extends Component {
             loading2: 'off',
             loading3: 'off',
             loading4: 'off',
-            loading5: 'off'
+            loading5: 'off',
+            loading6: 'off'
         })
     }
     
@@ -43,7 +45,8 @@ class Projects extends Component {
             loading2: 'off',
             loading3: 'off',
             loading4: 'off',
-            loading5: 'off'
+            loading5: 'off',
+            loading6: 'off'
         })
     }
     
@@ -54,7 +57,8 @@ class Projects extends Component {
             loading: 'off',
             loading3: 'off',
             loading4: 'off',
-            loading5: 'off'
+            loading5: 'off',
+            loading6: 'off'
         })
     }
     
@@ -65,7 +69,8 @@ class Projects extends Component {
             loading2: 'off',
             loading: 'off',
             loading4: 'off',
-            loading5: 'off'
+            loading5: 'off',
+            loading6: 'off'
         })
     }
     
@@ -76,7 +81,8 @@ class Projects extends Component {
             loading2: 'off',
             loading3: 'off',
             loading: 'off',
-            loading5: 'off'
+            loading5: 'off',
+            loading6: 'off'
         })
     }
     
@@ -87,7 +93,8 @@ class Projects extends Component {
             loading2: 'off',
             loading3: 'off',
             loading4: 'off',
-            loading: 'off'
+            loading: 'off',
+            loading6: 'off'
         })
     }
 
@@ -114,7 +121,7 @@ render(){
             <div className = 'excDiv'>
                     <a href = "https://farmacie-app.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation6()}>
-                        { this.state.loading === 'off' ?
+                        { this.state.loading6 === 'off' ?
                             <img className ="shell" alt = '' src = {pharma}/>
                             :
                             <Loading/>
