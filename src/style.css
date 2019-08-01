@@ -37,7 +37,7 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 19pt;
+        font-size: 22pt;
         font-family: 'arial';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
@@ -279,7 +279,7 @@ li{
     justify-content: center;
     font-family: 'tahoma';
     color:rgb(223, 223, 223);
-    font-size: 17px;
+    
 }
 
 .contact1{
@@ -287,14 +287,25 @@ li{
 }
  
 
-h1{
+.h1{
     margin-bottom: 40px;
     margin-top:150px;
+    font-size: 15pt;
+    font-weight: 100;
+    }
+
+
+.conAir{
+    margin:auto;
+    text-align:center;
+    margin-top: 20pt;
+    margin-bottom:20pt;
 }
 
- .work{
+ 
+.work{
      text-align: center;
-     margin-top: 5px;
+     margin-top: 15px;
      margin-bottom:5pt;
      font-size: 25px;
 }
@@ -324,10 +335,10 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 44pt;
-    width: 44pt;
+    height: 42pt;
+    width: 42pt;
     margin:auto;
-    margin-top:7pt;
+    margin-top: 1pt;
     animation: reverseLogo 5s linear infinite
 }
 
@@ -357,6 +368,7 @@ h5{
     border-radius: 100px;
     margin:auto;
     margin-bottom: 30pt;
+    margin-top:30pt;
     border: 3px solid rgba(255, 255, 255, 0.924);
 }
 
@@ -539,7 +551,7 @@ a{
     text-decoration:none;
     cursor: pointer;
     margin-top:10pt;
-    font-size:12pt;
+    font-size:14pt;
 }
 
 a:hover{
@@ -553,7 +565,7 @@ textarea{
 }
 
 input{
-    height:50pt;
+    height:55pt;
     font-size:12pt;
 }
 
@@ -612,8 +624,9 @@ input{
     
     
     .work{
-        margin-top: 60px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 17pt
     }
 
     .ID{
@@ -819,7 +832,7 @@ input{
         border-radius: 5px;
     }
 
-    h1{
+    .h1{
         margin-top:10vh
     }
     .contact1{
