@@ -193,8 +193,8 @@ li{
 
 .linkedin{
     background-image: url( './Photos/linkedin 3.png')  ; 
-    height: 25pt;
-    width: 27pt;
+    height: 24pt;
+    width: 26pt;
     background-position: center;
     background-size: cover;
     repeat:no-repeat;
@@ -207,8 +207,8 @@ li{
 
 
 .linkedin:hover{
-    height: 30pt;
-    width: 31.5pt;
+    height: 29pt;
+    width: 31pt;
 }
 
 
@@ -300,7 +300,7 @@ h1{
 }
 
 .welcomeP{
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -357,7 +357,7 @@ h5{
     border-radius: 100px;
     margin:auto;
     margin-bottom: 30pt;
-    border:1px solid rgba(255, 255, 255, 0.432);
+    border: 3px solid rgba(255, 255, 255, 0.924);
 }
 
    
