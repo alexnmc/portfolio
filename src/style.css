@@ -42,7 +42,7 @@ body::-webkit-scrollbar{
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
         animation: fade 6s;
-        color: rgba(255, 255, 255, 0.938);
+        color: rgba(255, 255, 255, 0.993);
         margin:2pt;
         margin-top: 6vh;
         text-align: center;
@@ -322,7 +322,7 @@ li{
 
 
 h5{
-    color: rgb(233, 233, 233);
+    color: rgb(255, 255, 255);
     font-size: 12pt;
     font-family: 'arial';
     font-weight: 700;
