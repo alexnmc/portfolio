@@ -9,7 +9,7 @@ const Home = props => {
         <div className="home"  id = '1'>
             <div className = "home1"> 
                 <div className = "home2">
-                    <h1 className = 'navbarP2'>Alexander Nemechek - <span className = 'fullstack'>full stack web developer</span> </h1>
+                    <h1 className = 'navbarP2'>Alexander Nemechek</h1>
                     <div className = 'inline'>
                         <div className = "fixed">
                         <a className = 'git1' href = "https://github.com/alexnmc ">
