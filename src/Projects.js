@@ -138,7 +138,7 @@ render(){
 
             
             <div className = 'excDiv'>
-                    <a href = "https://www.news-foryou.com" >
+                    <a href = "https://newsforyou.surge.sh" >
                     <div className = 'imgWrap' onClick = {() => this.animation()}>
                         { this.state.loading === 'off' ?
                             <img className ="shell" alt = '' src = {news}/>
