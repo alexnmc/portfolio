@@ -37,7 +37,7 @@ body::-webkit-scrollbar{
 
 
 .navbarP2{
-        font-size: 17pt;
+        font-size: 18pt;
         font-family: 'arial';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
@@ -311,7 +311,7 @@ li{
 }
 
 .welcomeP{
-    font-size: 14pt;
+    font-size: 15pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -368,7 +368,7 @@ h5{
     border-radius: 100px;
     margin:auto;
     margin-bottom: 10pt;
-    margin-top:5pt;
+    margin-top: 20pt;
     border: 3px solid rgba(255, 255, 255, 0.924);
 }
 
@@ -493,6 +493,22 @@ h5{
     position:relative;
 }
 
+.imgWrap2{
+    width:310px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+
+
+.native{
+    width:250px;
+    height:300px;
+    margin:auto
+}
+
+
 .loading{
     display: flex;
     align-items: center;
@@ -520,7 +536,6 @@ h5{
     display: block;
 }
 
-
 .shellDiv{
     width: 320px;
     height: 350px;
@@ -534,6 +549,12 @@ h5{
 .shellText{
    margin: 2pt;
    margin-bottom:10pt;
+}
+
+.exchangeText2{
+    text-align: center;
+    margin-top: 4pt;
+    margin-bottom:10pt;
 }
 
 .contactForm{

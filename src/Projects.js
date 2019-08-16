@@ -7,6 +7,7 @@ import pharma from './Photos/farma.png'
 import news from './Photos/news.png'
 import newPic from './Photos/news2.png'
 import Loading from './Loading'
+import native from './Photos/native.png'
 
 
 
@@ -154,6 +155,16 @@ render(){
             </div>
 
             <div className = 'excDiv'>
+                    <div className = 'imgWrap2'>
+                       <img className ="native" alt = '' src = {native}/>
+                    </div>
+                    <p className = 'exchangeText2'> News for You - React Native App</p>
+                    <a className = 'git1' href = " https://github.com/alexnmc/react-native-app1">
+                        <div className = "git2"></div>
+                    </a>
+            </div>
+
+            <div className = 'excDiv'>
                     <a href = "https://news-for-you.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation1()}>
                         { this.state.loading1 === 'off' ?
@@ -168,7 +179,7 @@ render(){
                         <div className = "git2"></div>
                     </a>
             </div>
-            
+
             <div className = 'excDiv'>
                     <a href = "https://app-booking.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation2()}>
