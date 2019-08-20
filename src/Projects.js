@@ -129,8 +129,9 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'> Using the HTML5 geolocation API the pharmacy-app helps users find the medication they are looking for by connecting them to all the pharmacies in the area.It has user registration and
-                     authentication using JWT and Bcrypt and custom RESTful API built in Node.js and Express providing endpoints for both routing and for get/post/delete CRUD functionality.
+                    <p className = 'exchangeText'> 
+                    React app that helps users find the medication they are looking for by sending a message and an email with their details and prescription to all the pharmacies in their range.
+                    It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality
                     </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
                         <div className = "git2"></div>
