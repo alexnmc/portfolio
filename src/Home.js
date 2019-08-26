@@ -14,11 +14,8 @@ const Home = props => {
                     <h5>this site was made with REACT</h5>
                     <div className = "react1"></div>
                 </div>
-
-                    
-                        
             </div>
-            <div className = "home5">
+                <div className = "home5">
             </div>
         </div>
     )
