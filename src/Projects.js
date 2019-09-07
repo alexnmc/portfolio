@@ -120,7 +120,7 @@ render(){
         <div className="projects">
             
             <div className = 'excDiv'>
-                    <a href = "https://farmacie-app.herokuapp.com/" >
+                    <a href = "https://www.farmaapp.eu/" >
                     <div className = 'imgWrap' onClick = {() => this.animation6()}>
                         { this.state.loading6 === 'off' ?
                             <img className ="shell" alt = '' src = {pharma}/>
