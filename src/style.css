@@ -105,7 +105,7 @@ body::-webkit-scrollbar{
 }
 
 
-.home2 h5{
+.home2 h1{
     animation: translateToPosition1 7s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
@@ -333,8 +333,8 @@ h5{
     background-image: url( './Photos/react.png')  ; 
     background-position: center;
     background-size: cover;
-    height: 42pt;
-    width: 42pt;
+    height: 37pt;
+    width: 37pt;
     margin:auto;
     margin-top: 1pt;
     animation: reverseLogo 5s linear infinite
