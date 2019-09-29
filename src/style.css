@@ -85,7 +85,7 @@ body::-webkit-scrollbar{
 
 
 .home2 p{
-    animation: translateToPosition 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation: translateToPosition 4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 @keyframes translateToPosition{
@@ -106,7 +106,7 @@ body::-webkit-scrollbar{
 
 
 .home2 h1{
-    animation: translateToPosition1 7s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation: translateToPosition1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 @keyframes translateToPosition1{
