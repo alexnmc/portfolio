@@ -8,6 +8,7 @@ import news from './Photos/news.png'
 import newPic from './Photos/news2.png'
 import Loading from './Loading'
 import native from './Photos/native.png'
+import lhc from './Photos/lhc.png'
 
 
 
@@ -118,6 +119,13 @@ render(){
         <div className = "projects1">
             <p className = "work">Projects:</p>
         <div className="projects">
+
+            <div className = 'excDiv'>
+                    <div className = 'imgWrap2'>
+                       <img className ="native" alt = '' src = {lhc}/>
+                    </div>
+                    <p className = 'exchangeText2'>Caregiver schedulng app built for Family Directed.</p>
+            </div>
             
             <div className = 'excDiv'>
                     <a href = "https://www.farmaapp.eu/" >
