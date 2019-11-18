@@ -124,10 +124,11 @@ render(){
                     <div className = 'imgWrap2'>
                        <img className ="native" alt = '' src = {lhc}/>
                     </div>
-                    <p className = 'exchangeText2'>Caregiver schedulng app built for Family Directed.</p>
+                    <p className = 'exchangeText2'>Caregiver schedulng app built for Family Directed using React Native and GraphQL.</p>
             </div>
             
             <div className = 'excDiv'>
+                    <p>Farmamapp.eu:</p>
                     <a href = "https://www.farmaapp.eu/" >
                     <div className = 'imgWrap' onClick = {() => this.animation6()}>
                         { this.state.loading6 === 'off' ?
@@ -138,8 +139,8 @@ render(){
                     </div>
                     </a>
                     <p className = 'exchangeText'> 
-                    React app that helps users find the medication they are looking for by sending a message and an email with their details and prescription to all the pharmacies in their range.
-                    It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality
+                        Farmaaap helps users find the medication they are looking for by sending a message and an email with their details and prescription to all the pharmacies in their range.
+                        It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality
                     </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
                         <div className = "git2"></div>
@@ -148,6 +149,7 @@ render(){
 
             
             <div className = 'excDiv'>
+                    <p>News for You:</p>
                     <a href = "https://newsforyou.surge.sh">
                     <div className = 'imgWrap' onClick = {() => this.animation()}>
                         { this.state.loading === 'off' ?
@@ -190,6 +192,7 @@ render(){
             </div>
 
             <div className = 'excDiv'>
+                    <p>Jet Ski Rental booking:</p>
                     <a href = "https://app-booking.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation2()}>
                         { this.state.loading2 === 'off' ?

@@ -540,7 +540,7 @@ h5{
     width: 320px;
     height: 350px;
     border-radius: 5px;
-    margin: 4%;
+    margin: 5%;
     display: block;
 }
 
@@ -789,7 +789,7 @@ input{
        justify-content: center;
        width: 290px;
        height: 400px;
-       margin:auto;
+       margin-top: 30pt;
     }
 
    
