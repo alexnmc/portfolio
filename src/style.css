@@ -6,7 +6,26 @@
 body{
     background: url('./Photos/1 .jpg') no-repeat fixed ;
     background-size: cover;
-    
+}
+
+.LogoLoading{
+    background-image: url( './Photos/react.png')  ; 
+    background-position: center;
+    background-size: cover;
+    height: 37pt;
+    width: 37pt;
+    margin:auto;
+    margin-top: 1pt;
+    animation: reverseLogo 5s linear infinite
+}
+
+.home{
+    animation: fadeHome 1 4s
+}
+
+@keyframes fadeHome{
+    from {opacity: 0}
+    to{opacity: 1}
 }
 
 body::-webkit-scrollbar{
@@ -22,7 +41,7 @@ body::-webkit-scrollbar{
 }
 
 .link{
-    font-size: 18.5px;
+    font-size: 17px;
     font-weight: 500;
     font-family: 'helvetica';
     text-decoration: none;
@@ -63,7 +82,7 @@ body::-webkit-scrollbar{
 .home1{
     height: 100vh;
     width:100vw;
-    background-color:rgba(10, 10, 19, 0.658);
+    background-color:rgba(10, 10, 19, 0.548);
     display:flex;
     justify-content:center;
 }

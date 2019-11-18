@@ -1,32 +1,25 @@
-import React, { Component } from 'react'
-//import { Switch, Route } from 'react-router-dom'
+import React, {Suspense, lazy } from 'react'
+import LogoLoading from './LogoLoading'
 import Navbar from './Navbar'
-import Home from './Home'
-import Contact from './Contact'
-import Projects from './Projects'
-import About from './About'
+const Home  = lazy(() => import("./Home"))
+const About  = lazy(() => import("./About"))
+const Projects  = lazy(() => import("./Projects"))
+const Contact  = lazy(() => import("./Contact"))
 
 
-class App extends Component {
-    constructor() {
-        super()
-   
-        this.state = {
-         
-         }
-    }
-    
-    render(){
+
+const App = ()  => {
         return (
             <div>
                 <Navbar/>
-                <Home />
-                <About/>
-                <Projects/>
-                <Contact/>
+                <Suspense fallback = {<LogoLoading/>}>
+                    <Home/>
+                    <About/>
+                    <Projects/>
+                    <Contact/>
+                </Suspense>
             </div>
         )
-    }
 }
 
 export default App
