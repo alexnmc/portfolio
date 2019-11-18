@@ -210,6 +210,7 @@ render(){
             </div>
             
             <div className = 'excDiv'>
+                <p>Write Something:</p>
                 <a href = "https://write-some.herokuapp.com/" >
                 <div className = 'imgWrap' onClick = {() => this.animation4()}>
                     { this.state.loading4 === 'off' ?
@@ -226,6 +227,7 @@ render(){
             </div>
             
             <div className = 'excDiv'>
+                <p>My first API project:</p>
                 <a href = "http://exrates.surge.sh">
                 <div className = 'imgWrap' onClick = {() => this.animation5()}>
                     { this.state.loading5 === 'off' ?
@@ -242,6 +244,7 @@ render(){
             </div>
             
             <div className = ' shellDiv'>
+                <p>My first full-stack project:</p>
                 <a href= "https://shell-game.herokuapp.com/body">
                 <div className = 'imgWrap' onClick = {() => this.animation3()}>
                     { this.state.loading3 === 'off' ?
