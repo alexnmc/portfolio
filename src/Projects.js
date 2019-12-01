@@ -128,7 +128,7 @@ render(){
             </div>
             
             <div className = 'excDiv'>
-                    <p>Farmamapp.eu:</p>
+                    <p>Farmaapp.eu:</p>
                     <a href = "https://www.farmaapp.eu/" >
                     <div className = 'imgWrap' onClick = {() => this.animation6()}>
                         { this.state.loading6 === 'off' ?
@@ -139,8 +139,9 @@ render(){
                     </div>
                     </a>
                     <p className = 'exchangeText'> 
-                        Farmaaap helps users find the medication they are looking for by sending a message and an email with their details and prescription to all the pharmacies in their range.
-                        It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality
+                        Built for Romania, Farmaap helps users find the medication they need by sending a message and an email with their details and prescription to all the pharmacies in their range.
+                        It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality.
+                        <span className = "click"> click on img</span>
                     </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/Farma-app">
                         <div className = "git2"></div>
@@ -159,7 +160,11 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'>News for You, a fully responsive, compact, single page REACT website displaying the latest news articles from over 50 countries and live streaming news channels.This project is also available as a React Native mobile app.</p>
+                    <p className = 'exchangeText'>News for You, a fully responsive, compact, 
+                        single page REACT website displaying the latest news articles from over 50 countries 
+                        and live streaming news channels.This project is also available as a React Native mobile app.
+                        <span className = "click"> click on img</span>
+                    </p>
                     <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
                         <div className = "git2"></div>
                     </a>
@@ -167,7 +172,7 @@ render(){
 
             <div className = 'excDiv'>
                     <div className = 'imgWrap2'>
-                       <img className ="native" alt = '' src = {native}/>
+                       <img className = "native" alt = '' src = {native}/>
                     </div>
                     <p className = 'exchangeText2'> News for You - React Native App</p>
                     <a className = 'git1' href = " https://github.com/alexnmc/react-native-app1">
@@ -176,6 +181,7 @@ render(){
             </div>
 
             <div className = 'excDiv'>
+                    <p>News for You,  full-stack:</p>
                     <a href = "https://news-for-you.herokuapp.com/" >
                     <div className = 'imgWrap' onClick = {() => this.animation1()}>
                         { this.state.loading1 === 'off' ?
@@ -185,7 +191,10 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'> The full-stack version of the NewsForYou application with JWT user authentication and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.</p>
+                    <p className = 'exchangeText'> The full-stack version of News for You with JWT user authentication 
+                        and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.
+                        <span className = "click"> click on img</span>
+                    </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/news-for-you">
                         <div className = "git2"></div>
                     </a>
@@ -202,8 +211,12 @@ render(){
                         }
                     </div>
                     </a>
-                    <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with JWT user authentication, password encryption, protected routes, RESTful APIs built in Node.js and Express providing
-                     endpoints for both routing and for post/get/put/delete CRUD functionality to save bookings and display available booking times and jet-skis.</p>
+                    <p className = 'exchangeText'>Jet Ski Rental, a full-stack application with JWT user authentication, password encryption, protected routes, 
+                        RESTful APIs built in Node.js and Express providing
+                        endpoints for both routing and for post/get/put/delete CRUD functionality to save bookings 
+                        and display available booking times and jet-skis.
+                        <span className = "click"> click on img</span>
+                    </p>
                     <a className = 'git1' href = " https://github.com/alexnmc/appointment-booking">
                         <div className = "git2"></div>
                     </a>
@@ -220,7 +233,10 @@ render(){
                     }
                 </div>
                 </a>
-                <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication using JWT and Bcrypt and complete CRUD functionality for saving, deleting or editing entries. </p>
+                <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication 
+                    using JWT and Bcrypt and complete CRUD functionality for saving, deleting or editing entries. 
+                    <span className = "click"> click on img</span>
+                </p>
                 <a className = 'git1' href = " https://github.com/alexnmc/write-something">
                     <div className = "git2"></div>
                 </a>
@@ -237,7 +253,10 @@ render(){
                     }
                     </div>
                 </a>
-                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, having Euro as base currency. The app gets the data from the Fixer API using Axios.</p>
+                <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, 
+                    having Euro as base currency. The app gets the data from the Fixer API using Axios.
+                    <span className = "click"> click on img</span>
+                </p>
                 <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
                     <div className = "git2"></div>
                 </a>
@@ -254,7 +273,9 @@ render(){
                     }
                 </div>
                 </a>
-                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript. Custom API routes built with Mongoose and Express to save player info in MongoDB.
+                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript. 
+                    Custom API routes built with Mongoose and Express to save player info in MongoDB.
+                    <span className = "click"> click on img</span>
                 </p>
                 <a className = 'git1' href = "https://github.com/alexnmc/shell-game ">
                     <div className = "git2"></div>
