@@ -28,6 +28,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage" : "http://alexnmc.github.io/portfolio"
  
 }
