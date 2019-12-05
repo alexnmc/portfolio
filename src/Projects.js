@@ -27,6 +27,18 @@ class Projects extends Component {
         }
     }
 
+    componentDidMount(){
+        this.setState({
+            loading3: 'off',
+            loading1: 'off',
+            loading2: 'off',
+            loading: 'off',
+            loading4: 'off',
+            loading5: 'off',
+            loading6: 'off'
+        })
+    }
+
     
     animation = () =>{
         this.setState({
@@ -262,7 +274,7 @@ render(){
                 </a>
             </div>
             
-            <div className = ' shellDiv'>
+            <div className = 'excDiv'>
                 <p>My first full-stack project:</p>
                 <a href= "https://shell-game.herokuapp.com/body">
                 <div className = 'imgWrap' onClick = {() => this.animation3()}>
@@ -273,7 +285,7 @@ render(){
                     }
                 </div>
                 </a>
-                <p className = 'shellText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript. 
+                <p className = 'exchangeText'>Shell Game, a fullstack game created in React with CSS animations and JavaScript. 
                     Custom API routes built with Mongoose and Express to save player info in MongoDB.
                     <span className = "click"> click on img</span>
                 </p>

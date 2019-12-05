@@ -54,7 +54,7 @@ body::-webkit-scrollbar{
 }
 
 .click{
-   color: rgba(4, 222, 238, 0.938);
+   color: rgb(0, 238, 255);
 }
 
 .navbarP2{
@@ -321,6 +321,7 @@ li{
     text-align:center;
     margin-top: 20pt;
     margin-bottom:20pt;
+    font-family: arial;
 }
 
  
@@ -488,7 +489,6 @@ h5{
     display: block;
     height: auto;
     padding:20px;
-  
 }
 
 .shell{
@@ -538,7 +538,6 @@ h5{
     margin:auto;
 }
 
-
 .excDiv{
     width: 320px;
     height: 350px;
@@ -547,26 +546,7 @@ h5{
     display: block;
 }
 
-
-.excDiv2{
-    width: 320px;
-    height: 350px;
-    border-radius: 5px;
-    margin: 4%;
-    display: block;
-}
-
-.shellDiv{
-    width: 320px;
-    height: 350px;
-    /* border: 4px solid rgb(255, 255, 255); */
-    border-radius: 5px;
-    margin: 4%;
-    display:block;
-}
-
-.exchangeText,
-.shellText{
+.exchangeText{
    margin: 2pt;
    margin-bottom:10pt;
 }
@@ -665,8 +645,7 @@ input{
     
     
     .work{
-        margin-top: 50px;
-        margin-bottom: 20px;
+        margin-top: 30px;
         font-size: 17pt
     }
 
@@ -701,7 +680,6 @@ input{
         width: 40px;
         margin: auto;
     }
-    
     
     .html,
     .css
@@ -780,19 +758,19 @@ input{
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       padding-bottom: 30px;
     }
 
    
-   .shellDiv,
    .excDiv{
        display: flex;
        flex-direction: column;
        align-items: center;
        justify-content: center;
        width: 290px;
-       height: 400px;
+       height: auto;
        margin: auto;
-       margin-top: 30pt;
+       margin-top: 60pt;
     }
 
     .imgWrap2{
