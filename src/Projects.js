@@ -27,7 +27,7 @@ class Projects extends Component {
         }
     }
 
-    componentDidMount(){
+    componentWillUnmount () {
         this.setState({
             loading3: 'off',
             loading1: 'off',
@@ -40,7 +40,7 @@ class Projects extends Component {
     }
 
     
-    animation = () =>{
+    animation = () => {
         this.setState({
             loading: 'on',
             loading1: 'off',
@@ -52,7 +52,7 @@ class Projects extends Component {
         })
     }
     
-    animation1 = () =>{
+    animation1 = () => {
         this.setState({
             loading1: 'on',
             loading: 'off',
@@ -64,7 +64,7 @@ class Projects extends Component {
         })
     }
     
-    animation2 = () =>{
+    animation2 = () => {
         this.setState({
             loading2: 'on',
             loading1: 'off',
@@ -76,7 +76,7 @@ class Projects extends Component {
         })
     }
     
-    animation3 = () =>{
+    animation3 = () => {
         this.setState({
             loading3: 'on',
             loading1: 'off',
@@ -88,7 +88,7 @@ class Projects extends Component {
         })
     }
     
-    animation4 = () =>{
+    animation4 = () => {
         this.setState({
             loading4: 'on',
             loading1: 'off',
@@ -100,7 +100,7 @@ class Projects extends Component {
         })
     }
     
-    animation5 = () =>{
+    animation5 = () => {
         this.setState({
             loading5: 'on',
             loading1: 'off',
@@ -112,7 +112,7 @@ class Projects extends Component {
         })
     }
 
-    animation6 = () =>{
+    animation6 = () => {
         this.setState({
             loading6: 'on',
             loading5: 'off',

@@ -11,6 +11,7 @@ const Contact  = lazy(() => import("./Contact"))
 const App = ()  => {
         return (
             <div>
+                
                 <Navbar/>
                 <Suspense fallback = {<LogoLoading/>}>
                     <Home/>
