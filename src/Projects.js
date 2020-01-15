@@ -9,6 +9,7 @@ import newPic from './Photos/news2.png'
 import Loading from './Loading'
 import native from './Photos/native.png'
 import lhc from './Photos/lhc.png'
+import data from './Photos/datachart.png'
 
 
 
@@ -23,7 +24,8 @@ class Projects extends Component {
            loading3: 'off',
            loading4: 'off',
            loading5: 'off',
-           loading6: 'off'
+           loading6: 'off',
+           loading7: 'off'
         }
     }
 
@@ -35,7 +37,8 @@ class Projects extends Component {
             loading: 'off',
             loading4: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
 
@@ -48,7 +51,8 @@ class Projects extends Component {
             loading3: 'off',
             loading4: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
     
@@ -60,7 +64,8 @@ class Projects extends Component {
             loading3: 'off',
             loading4: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
     
@@ -72,7 +77,8 @@ class Projects extends Component {
             loading3: 'off',
             loading4: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
     
@@ -84,7 +90,8 @@ class Projects extends Component {
             loading: 'off',
             loading4: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
     
@@ -96,7 +103,8 @@ class Projects extends Component {
             loading3: 'off',
             loading: 'off',
             loading5: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
     
@@ -108,13 +116,28 @@ class Projects extends Component {
             loading3: 'off',
             loading4: 'off',
             loading: 'off',
-            loading6: 'off'
+            loading6: 'off',
+            loading7: 'off'
         })
     }
 
     animation6 = () => {
         this.setState({
             loading6: 'on',
+            loading5: 'off',
+            loading1: 'off',
+            loading2: 'off',
+            loading3: 'off',
+            loading4: 'off',
+            loading: 'off',
+            loading7: 'off', 
+        })
+    }
+
+    animation7 = () => {
+        this.setState({
+            loading7: 'on',
+            loading6: 'off',
             loading5: 'off',
             loading1: 'off',
             loading2: 'off',
@@ -136,7 +159,7 @@ render(){
                     <div className = 'imgWrap2'>
                        <img className ="native" alt = '' src = {lhc}/>
                     </div>
-                    <p className = 'exchangeText2'>Caregiver schedulng app built for Family Directed using React Native and GraphQL.</p>
+                    <p className = 'exchangeText2'>Caregiver schedulng app built using React Native and GraphQL.</p>
             </div>
             
             <div className = 'excDiv'>
@@ -190,6 +213,25 @@ render(){
                     <a className = 'git1' href = " https://github.com/alexnmc/react-native-app1">
                         <div className = "git2"></div>
                     </a>
+            </div>
+
+            <div className = 'excDiv'>
+                <p>Data Chart:</p>
+                <a href = "https://mern-datachart.herokuapp.com/" >
+                <div className = 'imgWrap' onClick = {() => this.animation7()}>
+                    { this.state.loading7 === 'off' ?
+                        <img className = "shell" alt = '' src = {data}/>
+                        :
+                        <Loading/>
+                    }
+                </div>
+                </a>
+                <p className = 'exchangeText'>A full-stack MERN demo for data visualization with CRUD functionality for saving data in MongoDB.
+                    <span className = "click"> click on img</span>
+                </p>
+                <a className = 'git1' href = "https://github.com/alexnmc/write-something">
+                    <div className = "git2"></div>
+                </a>
             </div>
 
             <div className = 'excDiv'>
@@ -294,7 +336,7 @@ render(){
                 </a>
             </div>
         </div>
-       </div>
+        </div>
         <div className = 'home5'></div>
     </div>
     )

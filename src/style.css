@@ -90,7 +90,6 @@ body::-webkit-scrollbar{
     justify-content:center;
 }
 
-
 .home2{ 
     padding:10px;
     box-sizing: border-box;
@@ -150,7 +149,7 @@ body::-webkit-scrollbar{
 
 .home3 {
     background-color:rgba(10, 10, 19, 0.89);
-    height: 100vh;
+    height: auto;
     padding: 50px;
     
 }
@@ -175,12 +174,16 @@ body::-webkit-scrollbar{
     position:relative;
 }
 
+.about{
+    height: auto;
+}
+
 
 .provide{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 270px;
+  height: auto;
 }
 
 
@@ -200,6 +203,7 @@ body::-webkit-scrollbar{
 ul{
     margin: 100px;
     margin-top: 30px;
+    margin-bottom:30px;
 }
 
 
@@ -208,7 +212,7 @@ li{
     font-size: 12.5pt;
     font-family: 'verdana';
     font-weight: 520;
-    margin: auto;
+    margin:5px;
 }
 
 
