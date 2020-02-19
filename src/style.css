@@ -58,7 +58,7 @@ body::-webkit-scrollbar{
 }
 
 .navbarP2{
-        font-size: 18pt;
+        font-size: 16pt;
         font-family: 'arial';
         font-weight: 600;
         transition: all 0.4s ease-in-out 0.1s;
@@ -337,7 +337,7 @@ li{
 }
 
 .welcomeP{
-    font-size: 23px;
+    font-size: 16pt;
     font-family: 'helvetica';
     font-weight: 700;
     text-align: center;
@@ -868,7 +868,7 @@ input{
     
     
     .welcomeP{
-        font-size:14pt;
+        font-size:12pt;
     }
 
     h5{
@@ -876,7 +876,7 @@ input{
     }
     
     .navbarP2{
-        font-size:13pt;
+        font-size:12pt;
     }
 
     .fullstack{
