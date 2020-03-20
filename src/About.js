@@ -5,8 +5,8 @@ import resume from './Photos/resume.pdf'
 const About = () => {
     
     return (
+        <>
         <div className="about" id = '2'>
-            
             <div className = "home3">
                 <div className = "ID"></div>
                 <div className = 'inline'>
@@ -64,9 +64,9 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className = 'home5'>
-            </div>
         </div>
+        <div className = 'home5'></div>
+        </>
     )
 }
 

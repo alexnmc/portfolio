@@ -149,7 +149,7 @@ body::-webkit-scrollbar{
 
 .home3 {
     background-color:rgba(10, 10, 19, 0.89);
-    height: auto;
+    height: 100vh;
     padding: 50px;
     
 }
@@ -175,7 +175,7 @@ body::-webkit-scrollbar{
 }
 
 .about{
-    height: auto;
+    height: 100vh;
 }
 
 
@@ -667,7 +667,7 @@ input{
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       height:auto;
+       height:auro;
     }
     
     .logos{
@@ -824,12 +824,11 @@ input{
         margin:0pt;
     }
 
-     .fixed{
-         height: 40pt;
-     }
+    .fixed{
+        height: 40pt;
+    }
 
-     
-     body::before {
+    body::before {
         content: ' ';
         display: block;
         background-image: url('./Photos/1 .jpg');
@@ -862,10 +861,10 @@ input{
     .h1{
         margin-top:10vh
     }
+    
     .contact1{
         height:70vh;
     }
-    
     
     .welcomeP{
         font-size:12pt;
