@@ -151,15 +151,13 @@ body::-webkit-scrollbar{
     background-color:rgba(10, 10, 19, 0.89);
     height: 100vh;
     padding: 50px;
-    
 }
 
 .home5{
      height:200px;
      width: 100%;
      background-color:  rgba(255, 255, 255, 0.109);
- }
-
+}
 
 .aboutP{
     font-family: 'helvetica';
@@ -186,7 +184,6 @@ body::-webkit-scrollbar{
   height: auto;
 }
 
-
 .inline{
     display: flex;
     justify-content: center;
@@ -196,9 +193,7 @@ body::-webkit-scrollbar{
     width: 100%;
     margin:auto;
     border-radius: 23px;
-   
 }
-    
     
 ul{
     margin: 100px;
@@ -222,7 +217,7 @@ li{
     width: 26pt;
     background-position: center;
     background-size: cover;
-    repeat:no-repeat;
+    repeat: no-repeat;
     display: inline-block;
     margin: 20px;
     transition: 0.5s ease-in-out 0.2s;
@@ -667,7 +662,7 @@ input{
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       height:auro;
+       height:auto;
     }
     
     .logos{
