@@ -6,17 +6,16 @@ import Projects  from "./Projects"
 import Contact  from "./Contact"
 
 
-
 const App = ()  => {
-        return (
-            <div>
-                <Navbar/>
-                <Home/>
-                <About/>
-                <Projects/>
-                <Contact/>
-            </div>
-        )
+    return (
+        <div>
+            <Navbar/>
+            <Home/>
+            <About/>
+            <Projects/>
+            <Contact/>
+        </div>
+    )
 }
 
 export default App
