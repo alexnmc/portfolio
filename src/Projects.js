@@ -30,11 +30,9 @@ return (
             
             <div className = 'excDiv'>
                     <p>Farmaapp.eu:</p>
-                    <a href = "https://www.farmaapp.eu/" >
                     <div className = 'imgWrap' >
                       <img className ="shell" alt = '' src = {pharma}/>
                     </div>
-                    </a>
                     <p className = 'exchangeText'> 
                         Built for Romania, Farmaap helps users find the medication they need by sending a message and an email with their details and prescription to all the pharmacies in their range.
                         It has user authentication, password encryption and protected routes, built custom RESTful API in Node.js and Express providing endpoints for both routing and for get/post/put/delete CRUD functionality.
@@ -48,15 +46,12 @@ return (
             
             <div className = 'excDiv'>
                     <p>News for You:</p>
-                    <a href = "https://newsforyou.surge.sh">
                     <div className = 'imgWrap' >
                        <img className ="shell" alt = '' src = {news}/>
                     </div>
-                    </a>
                     <p className = 'exchangeText'>News for You, a fully responsive, compact, 
                         single page REACT website displaying the latest news articles from over 50 countries 
                         and live streaming news channels.This project is also available as a React Native mobile app.
-        
                     </p>
                     <a className = 'git1' href = "https://github.com/alexnmc/daily-news ">
                         <div className = "git2"></div>
@@ -75,11 +70,9 @@ return (
 
             <div className = 'excDiv'>
                 <p>Data Chart:</p>
-                <a href = "https://mern-datachart.herokuapp.com/" >
                 <div className = 'imgWrap' >
                     <img className = "shell" alt = '' src = {data}/>
                 </div>
-                </a>
                 <p className = 'exchangeText'>A full-stack MERN demo for data visualization with CRUD functionality for saving data in MongoDB.
     
                 </p>
@@ -90,11 +83,9 @@ return (
 
             <div className = 'excDiv'>
                     <p>News for You,  full-stack:</p>
-                    <a href = "https://news-for-you.herokuapp.com/" >
                     <div className = 'imgWrap' >
                        <img className ="shell" alt = '' src = {newPic}/>
                     </div>
-                    </a>
                     <p className = 'exchangeText'> The full-stack version of News for You with JWT user authentication 
                         and RESTful full stack CRUD functionaity for saving user info and news articles in MongoDB.
                     </p>
@@ -122,11 +113,9 @@ return (
             
             <div className = 'excDiv'>
                 <p>Write Something:</p>
-                <a href = "https://write-some.herokuapp.com/" >
                 <div className = 'imgWrap' >
                     <img className ="shell" alt = '' src = {write}/>
                 </div>
-                </a>
                 <p className = 'exchangeText'>A full-stack MERN journal with user registration and authentication 
                     using JWT and Bcrypt and complete CRUD functionality for saving, deleting or editing entries. 
     
@@ -145,7 +134,6 @@ return (
                 </a>
                 <p className = 'exchangeText'>React website displaying and converting all the foreign currencies including Bitcoin, 
                     having Euro as base currency. The app gets the data from the Fixer API using Axios.
-    
                 </p>
                 <a className = 'git1' href = "https://github.com/alexnmc/Api-project ">
                     <div className = "git2"></div>
