@@ -1,23 +1,20 @@
-import React, {Suspense, lazy } from 'react'
-import LogoLoading from './LogoLoading'
+import React  from 'react'
 import Navbar from './Navbar'
-const Home  = lazy(() => import("./Home"))
-const About  = lazy(() => import("./About"))
-const Projects  = lazy(() => import("./Projects"))
-const Contact  = lazy(() => import("./Contact"))
+import Home  from "./Home"
+import About  from "./About"
+import Projects  from "./Projects"
+import Contact  from "./Contact"
 
 
 
 const App = ()  => {
         return (
             <div>
-                <Suspense fallback = {<LogoLoading/>}>
-                    <Navbar/>
-                    <Home/>
-                    <About/>
-                    <Projects/>
-                    <Contact/>
-                </Suspense>
+                <Navbar/>
+                <Home/>
+                <About/>
+                <Projects/>
+                <Contact/>
             </div>
         )
 }
