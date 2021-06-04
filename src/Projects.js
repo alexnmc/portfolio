@@ -172,8 +172,7 @@ return (
         </div>
         <div className = 'home5'></div>
     </div>
-    )
-}
+)}
 
 
 export default Projects
